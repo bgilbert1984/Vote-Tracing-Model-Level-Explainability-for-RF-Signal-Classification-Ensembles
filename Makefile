@@ -2,6 +2,9 @@
 #
 # Complete build system for vote trace analysis and explainability paper
 
+# Python path configuration
+export PYTHONPATH := $(shell pwd):$(PYTHONPATH)
+
 # Configuration
 PAPER_DIR = .
 TRACES_JSONL = $(PAPER_DIR)/data/vote_traces.jsonl
@@ -31,7 +34,7 @@ define PAD_FLAG
 $(if $(filter 1 true yes on,$(VT_PAD_EDGES)),--pad-edges,)
 endef
 
-.PHONY: all traces figs tables-vt pdf press clean help xai-figs xai-prune
+.PHONY: all traces figs tables-vt pdf press clean help xai-figs xai-prune osr-fit-mahal osr-bench osr-table osr-rocs osr-all inject-osr
 
 # Main targets
 all: press
@@ -45,6 +48,10 @@ help:
 	@echo "  tables-vt  - Render global + SNR-stratified contribution tables"
 	@echo "  xai-figs   - Generate XAI plots (vote timelines, Shapley bars, heatmap)"
 	@echo "  xai-prune  - Test attribution faithfulness via model pruning"
+	@echo "  osr-bench  - Run Open-Set Rejection benchmark"
+	@echo "  osr-table  - Generate OSR comparison table"
+	@echo "  osr-rocs   - Generate OSR ROC curves"
+	@echo "  osr-all    - Complete OSR analysis pipeline"
 	@echo "  pdf        - Build LaTeX paper"
 	@echo "  press      - Complete pipeline: traces → figs → tables → pdf"
 	@echo "  clean      - Remove generated files"
@@ -113,6 +120,53 @@ xai-prune: $(VT_VOTES)
 		--baseline_acc $${BASELINE_ACC:-0.85} \
 		--out data/xai_pruning_summary.json
 	@echo "✅ Pruning analysis completed"
+
+# ==== OSR: Open-Set Rejection Analysis ====
+
+# Fit Mahalanobis model for OSR comparison
+osr-fit-mahal:
+	@echo "🔧 Fitting Mahalanobis OSR model..."
+	$(PYTHON) scripts/osr_fit_mahal.py \
+		--train-trace-json data/osr_traces_train.json \
+		--out data/mahal_model.json \
+		--shrink 0.05 --tail-frac 0.10
+
+# Run OSR benchmark across methods
+osr-bench:
+	@echo "🔍 Running OSR benchmark..."
+	python3 scripts/osr_benchmark_numpy.py \
+		--trace-json data/osr_traces.json \
+		--out-json data/osr_results.json \
+		--lambda 10.2 --coverage 0.95
+
+# Generate OSR comparison table
+osr-table: osr-bench
+	@echo "📊 Generating OSR table..."
+	@mkdir -p $(TABLES_DIR)
+	$(PYTHON) scripts/render_table_osr.py \
+		data/osr_results.json $(TABLES_DIR)/osr_table.tex
+
+# Generate OSR ROC curves
+osr-rocs:
+	@echo "📈 Generating OSR ROC curves..."
+	@mkdir -p $(FIGS_DIR)
+	$(PYTHON) scripts/osr_plot_rocs.py \
+		--trace-json data/osr_traces.json \
+		--mahal-model data/mahal_model.json \
+		--out $(FIGS_DIR)/osr_rocs.pdf
+
+# Inject OSR section into LaTeX if missing
+inject-osr:
+	@echo "📝 Injecting OSR section + cite keys if missing..."
+	@if ! grep -q 'Open-Set Rejection via Vote Traces' main_vote_traces.tex; then \
+	  awk '1; /\\section\*{Results}/ && !p {print "\n\\subsection*{Open-Set Rejection via Vote Traces}\\label{sec:osr}\nWe combine energy scoring~\\cite{liu2020energy} with ensemble disagreement (std of per-model probabilities for the predicted class), forming $$\\text{OSR}=E-\\lambda\\,\\sigma_p(y^*)$$ with $$\\lambda=10.2$$. We compare against MaxProb+Entropy, ODIN~\\cite{liang2018odin}, Mahalanobis~\\cite{lee2018simple,mahalanobis1936}, and MOS~\\cite{huang2021mos}.\\input{tables/osr_table.tex}"} {p=1}' main_vote_traces.tex > main_vote_traces.tex.tmp && mv main_vote_traces.tex.tmp main_vote_traces.tex; \
+	fi
+	@# Add bib stubs if not present
+	@./scripts/inject_bib.sh refs.bib
+
+# Complete OSR pipeline
+osr-all: osr-fit-mahal osr-table osr-rocs inject-osr pdf
+	@echo "✅ OSR analysis complete: table + ROC + PDF ready"
 
 $(VT_TABLE) $(VT_TABLE_SNR): $(TRACES_JSONL) $(VT_TPLDIR)/vote_contrib_table.tex.j2 $(VT_TPLDIR)/vt_top_contrib_snr.tex.j2 scripts/render_vote_tables.py
 	@echo "📄 Rendering contribution tables..."

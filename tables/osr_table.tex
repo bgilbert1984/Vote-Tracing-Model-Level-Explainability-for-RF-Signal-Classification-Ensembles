@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Open-Set performance at $\approx$95\% known-class coverage (Dummy Test Data; 4-model ensemble)}
+\begin{tabular}{lcccccc}
+\toprule
+Method & Known Acc. & Unknown Reject & AUROC & Extra Forwards & Memory & Train Fit \\
+\midrule
+Energy & 94.0\% & 50.0\% & 0.817 & 0 & Low & No \\
+Energy - λ·σ (ours) & 94.0\% & 50.0\% & 0.815 & 0 & Low & No \\
+MaxProb+Entropy & 94.0\% & 50.0\% & 0.883 & 0 & Low & No \\
+ODIN & 94.0\% & 40.0\% & 0.854 & 1 & Low & No \\
+MOS & 94.0\% & 36.7\% & 0.843 & 0 & Low & No \\
+Mahalanobis & 94.0\% & 50.0\% & 0.817 & 0 & Med & Yes \\
+\bottomrule
+\end{tabular}
+\label{tab:osr-comparison}
+\end{table}
