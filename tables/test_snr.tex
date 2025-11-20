@@ -1,0 +1,55 @@
+\begin{table}[t]
+\centering
+\caption{SNR-stratified top contributing models (mean $\Delta p$). Each block lists Top-0 per bin; Top-Share is the fraction of samples in the bin where the model is the top contributor.}
+\label{tab:vt_top_contrib_snr}
+\begin{tabular}{l l c c}
+\toprule
+Bin (dB) & Model & Mean $\Delta p$ & Top-Share \\
+\midrule
+\multicolumn{4}{l}{\textbf{Bin $(-\infty,-15)$} \quad (N=0)} \\
+\multicolumn{4}{c}{\emph{No samples in bin}} \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[-15,-10)$} \quad (N=4)} \\
+ & TemporalCNN & 0.1942 $\pm$ 0.0393 & 50.0\% \\
+ & SignalLSTM & 0.1724 $\pm$ 0.0465 & 50.0\% \\
+ & ResNetRF & 0.0765 $\pm$ 0.0265 & 0.0\% \\
+ & SpectralCNN & 0.0595 $\pm$ 0.0140 & 0.0\% \\
+ & SignalTransformer & 0.0060 $\pm$ 0.0457 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[-10,-5)$} \quad (N=7)} \\
+ & TemporalCNN & 0.1958 $\pm$ 0.0440 & 71.4\% \\
+ & SignalLSTM & 0.1733 $\pm$ 0.0307 & 28.6\% \\
+ & ResNetRF & 0.0618 $\pm$ 0.0337 & 0.0\% \\
+ & SpectralCNN & 0.0525 $\pm$ 0.0144 & 0.0\% \\
+ & SignalTransformer & 0.0115 $\pm$ 0.0300 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[-5,0)$} \quad (N=7)} \\
+ & SpectralCNN & 0.1518 $\pm$ 0.0473 & 57.1\% \\
+ & ResNetRF & 0.1460 $\pm$ 0.0299 & 28.6\% \\
+ & TemporalCNN & 0.1346 $\pm$ 0.0274 & 14.3\% \\
+ & SignalTransformer & 0.1177 $\pm$ 0.0230 & 0.0\% \\
+ & SignalLSTM & 0.0860 $\pm$ 0.0280 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[0,5)$} \quad (N=9)} \\
+ & SpectralCNN & 0.1209 $\pm$ 0.0414 & 55.6\% \\
+ & ResNetRF & 0.1156 $\pm$ 0.0332 & 22.2\% \\
+ & TemporalCNN & 0.1089 $\pm$ 0.0296 & 22.2\% \\
+ & SignalTransformer & 0.0969 $\pm$ 0.0194 & 0.0\% \\
+ & SignalLSTM & 0.0836 $\pm$ 0.0197 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[5,10)$} \quad (N=7)} \\
+ & ResNetRF & 0.1360 $\pm$ 0.0216 & 28.6\% \\
+ & SpectralCNN & 0.1225 $\pm$ 0.0493 & 28.6\% \\
+ & TemporalCNN & 0.1190 $\pm$ 0.0290 & 28.6\% \\
+ & SignalTransformer & 0.1072 $\pm$ 0.0413 & 14.3\% \\
+ & SignalLSTM & 0.0929 $\pm$ 0.0452 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[10,15)$} \quad (N=12)} \\
+ & SpectralCNN & 0.1842 $\pm$ 0.0325 & 83.3\% \\
+ & ResNetRF & 0.1499 $\pm$ 0.0459 & 16.7\% \\
+ & SignalTransformer & 0.1128 $\pm$ 0.0297 & 0.0\% \\
+ & TemporalCNN & 0.0667 $\pm$ 0.0338 & 0.0\% \\
+ & SignalLSTM & 0.0460 $\pm$ 0.0178 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[15,\infty)$} \quad (N=4)} \\
+ & SpectralCNN & 0.1279 $\pm$ 0.0525 & 75.0\% \\
+ & ResNetRF & 0.1169 $\pm$ 0.0571 & 25.0\% \\
+ & SignalTransformer & 0.0772 $\pm$ 0.0170 & 0.0\% \\
+ & TemporalCNN & 0.0557 $\pm$ 0.0265 & 0.0\% \\
+ & SignalLSTM & 0.0325 $\pm$ 0.0095 & 0.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}

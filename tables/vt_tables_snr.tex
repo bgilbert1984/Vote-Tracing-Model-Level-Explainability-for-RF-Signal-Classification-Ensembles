@@ -1,0 +1,43 @@
+\begin{table}[t]
+\centering
+\caption{SNR-stratified top contributing models (mean $\Delta p$). Each block lists Top-0 per bin; Top-Share is the fraction of samples in the bin where the model is the top contributor.}
+\label{tab:vt_top_contrib_snr}
+\begin{tabular}{l l c c}
+\toprule
+Bin (dB) & Model & Mean $\Delta p$ & Top-Share \\
+\midrule
+\multicolumn{4}{l}{\textbf{Bin $(-\infty,-20)$} \quad (N=0)} \\
+\multicolumn{4}{c}{\emph{No samples in bin}} \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[-20,-10)$} \quad (N=9)} \\
+ & TemporalCNN & 0.2139 $\pm$ 0.0533 & 77.8\% \\
+ & SignalLSTM & 0.1700 $\pm$ 0.0411 & 22.2\% \\
+ & ResNetRF & 0.0727 $\pm$ 0.0250 & 0.0\% \\
+ & SpectralCNN & 0.0569 $\pm$ 0.0287 & 0.0\% \\
+ & SignalTransformer & 0.0118 $\pm$ 0.0288 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[-10,0)$} \quad (N=32)} \\
+ & TemporalCNN & 0.1665 $\pm$ 0.0736 & 56.2\% \\
+ & SignalLSTM & 0.1187 $\pm$ 0.0616 & 3.1\% \\
+ & ResNetRF & 0.1034 $\pm$ 0.0416 & 6.2\% \\
+ & SpectralCNN & 0.1024 $\pm$ 0.0585 & 28.1\% \\
+ & SignalTransformer & 0.0598 $\pm$ 0.0599 & 6.2\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[0,10)$} \quad (N=38)} \\
+ & ResNetRF & 0.1288 $\pm$ 0.0375 & 47.4\% \\
+ & SpectralCNN & 0.1213 $\pm$ 0.0493 & 31.6\% \\
+ & TemporalCNN & 0.1064 $\pm$ 0.0378 & 15.8\% \\
+ & SignalTransformer & 0.0945 $\pm$ 0.0336 & 5.3\% \\
+ & SignalLSTM & 0.0860 $\pm$ 0.0311 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[10,20)$} \quad (N=17)} \\
+ & SpectralCNN & 0.1968 $\pm$ 0.0521 & 76.5\% \\
+ & ResNetRF & 0.1495 $\pm$ 0.0402 & 23.5\% \\
+ & SignalTransformer & 0.1059 $\pm$ 0.0314 & 0.0\% \\
+ & TemporalCNN & 0.0731 $\pm$ 0.0336 & 0.0\% \\
+ & SignalLSTM & 0.0418 $\pm$ 0.0182 & 0.0\% \\
+\addlinespace\multicolumn{4}{l}{\textbf{Bin $[20,\infty)$} \quad (N=4)} \\
+ & SpectralCNN & 0.2005 $\pm$ 0.0380 & 75.0\% \\
+ & ResNetRF & 0.1673 $\pm$ 0.0467 & 25.0\% \\
+ & SignalTransformer & 0.1203 $\pm$ 0.0279 & 0.0\% \\
+ & TemporalCNN & 0.0832 $\pm$ 0.0280 & 0.0\% \\
+ & SignalLSTM & 0.0280 $\pm$ 0.0101 & 0.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}

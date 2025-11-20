@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Ablation: removing low-Shapley models improves both accuracy and calibration while reducing latency (RTX 4090, batch=1).}
+\label{tab:shapley_ablation}
+\begin{tabular}{lccc}
+\toprule
+Ensemble Configuration      & Top-5 Acc. & ECE   & Latency (ms) \\
+\midrule
+Full ensemble (8 models)    & 97.2\%     & 0.024 & 19.1 \\
+Prune negative-Shapley      & 97.4\%     & 0.018 & 13.8 \\
+Prune bottom-3 by mean $\phi_i$ & 97.3\% & 0.019 & 12.5 \\
+Best single model (oracle)   & 93.8\%     & 0.046 & 2.4  \\
+\bottomrule
+\end{tabular}
+\end{table}

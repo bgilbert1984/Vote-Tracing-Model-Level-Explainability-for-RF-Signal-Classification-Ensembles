@@ -1,0 +1,72 @@
+*** a/ensemble_ml_classifier.py
+--- b/ensemble_ml_classifier.py
+@@
+-    def classify_signal(self, signal, **kwargs):
+-        """
+-        Classify a signal using the existing hierarchical+ensemble logic.
+-        """
+-        # existing code...
++    def classify_signal(self, signal, mode: str = "auto", return_meta: bool = False, override_temperature=None, **kwargs):
++        """
++        Classify a signal with selectable path.
++        Args:
++            mode: "auto" (default), "hier" (force parent HierarchicalMLClassifier path),
++                  "flat" (skip parent and use ensemble voting only).
++            return_meta: if True, returns (label, confidence, meta_dict)
++            override_temperature: optional per-model or scalar temperature for calibration
++        """
++        import time as _time
++        t0 = _time.time()
++        meta = getattr(signal, "metadata", {}) if hasattr(signal, "metadata") else {}
++        if not isinstance(meta, dict):
++            meta = {}
++        meta.setdefault("hfv", {})  # hier-vs-flat capsule
++        # --- (A) Parent call: super().classify_signal()
++        def _call_parent():
++            try:
++                return super(EnsembleMLClassifier, self).classify_signal(signal, return_meta=True, **kwargs)
++            except TypeError:
++                y = super(EnsembleMLClassifier, self).classify_signal(signal, **kwargs)
++                conf = 1.0 if isinstance(y, str) else getattr(y, "confidence", 0.0)
++                return y, conf, {"path": "hier"}
++        # --- (B) Ensemble-only
++        def _call_flat():
++            names, probs = [], []
++            for name, model in self.ensemble_models.items():
++                p = model.predict_proba(signal)  # expected shape (C,)
++                names.append(name); probs.append(p)
++            import numpy as _np
++            P = _np.vstack(probs)  # (M,C)
++            if override_temperature is not None:
++                if _np.isscalar(override_temperature):
++                    T = float(override_temperature)
++                    P = _np.exp(_np.log(P + 1e-9) / max(T, 1e-6))
++                    P = P / P.sum(axis=1, keepdims=True)
++                else:
++                    Ts = _np.asarray(override_temperature, dtype=float).reshape(-1,1)
++                    P = _np.exp(_np.log(P + 1e-9) / _np.clip(Ts, 1e-6, None))
++                    P = P / P.sum(axis=1, keepdims=True)
++            w = getattr(self, "ensemble_weights", None)
++            if w is None:
++                w = _np.ones((P.shape[0],), dtype=float)/P.shape[0]
++            w = _np.asarray(w, dtype=float)
++            w = w / (w.sum() + 1e-12)
++            pen = (w.reshape(-1,1) * P).sum(axis=0)  # (C,)
++            cls_idx = int(pen.argmax())
++            cls_name = self.class_names[cls_idx] if hasattr(self, "class_names") else str(cls_idx)
++            conf = float(pen.max())
++            return cls_name, conf, {"path": "flat", "pen": pen.tolist(), "weights": w.tolist(), "members": names}
++        if mode == "hier":
++            y, c, m = _call_parent()
++            meta["hfv"]["hier"] = {"label": y, "conf": c, "meta": m, "lat_ms": (_time.time()-t0)*1000.0}
++            return (y, c, meta) if return_meta else y
++        if mode == "flat":
++            y, c, m = _call_flat()
++            meta["hfv"]["flat"] = {"label": y, "conf": c, "meta": m, "lat_ms": (_time.time()-t0)*1000.0}
++            return (y, c, meta) if return_meta else y
++        y_h, c_h, m_h = _call_parent(); t1 = _time.time()
++        y_f, c_f, m_f = _call_flat();   t2 = _time.time()
++        meta["hfv"]["hier"] = {"label": y_h, "conf": c_h, "meta": m_h, "lat_ms": (t1 - t0)*1000.0}
++        meta["hfv"]["flat"] = {"label": y_f, "conf": c_f, "meta": m_f, "lat_ms": (t2 - t1)*1000.0}
++        y_out, c_out = y_f, c_f
++        return (y_out, c_out, meta) if return_meta else y_out

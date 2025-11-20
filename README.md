@@ -1,4 +1,4 @@
-# Explainability from Vote Traces in RF Ensembles
+# Paper 12: Explainability from Vote Traces in RF Ensembles
 
 A comprehensive system for adding interpretability to RF signal classification ensembles through vote tracing, Shapley attribution, and visual analysis.
 
@@ -243,6 +243,3 @@ For questions or issues:
 2. Run `make check` to verify system setup
 3. Review example outputs in the `test` target
 4. Examine trace data with `make debug-traces`
-
-5. # Vote-Tracing-Model-Level-Explainability-for-RF-Signal-Classification-Ensembles
-Explainable AI, ensemble methods, RF signal classification, exact Shapley values, vote attribution, open-set rejection

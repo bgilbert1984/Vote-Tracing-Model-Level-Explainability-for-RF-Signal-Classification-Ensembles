@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{SNR-stratified top contributing models (mean $\Delta p$). Each block lists Top-{{ bins[0].rows|length if bins|length>0 else 0 }} per bin; Top-Share is the fraction of samples in the bin where the model is the top contributor.}
+\label{tab:vt_top_contrib_snr}
+\begin{tabular}{l l c c}
+\toprule
+Bin (dB) & Model & Mean $\Delta p$ & Top-Share \\
+\midrule
+{% for b in bins %}
+\multicolumn{4}{l}{\textbf{Bin {{ b.label }}} \quad (N={{ b.N }})} \\
+{% if b.rows|length == 0 %}
+\multicolumn{4}{c}{\emph{No samples in bin}} \\
+{% else %}
+{% for row in b.rows %}
+ & {{ row.model }} & {{ "%.4f"|format(row.mean_dp) }} $\pm$ {{ "%.4f"|format(row.std_dp) }} & {{ "%.1f"|format(100*row.top_share) }}\% \\
+{% endfor %}
+{% endif %}
+{% if not loop.last %}\addlinespace{% endif %}
+{% endfor %}
+\bottomrule
+\end{tabular}
+\end{table}

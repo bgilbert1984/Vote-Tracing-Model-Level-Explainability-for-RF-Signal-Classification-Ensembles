@@ -1,0 +1,3404 @@
+{
+  "signals": [
+    {
+      "id": "signal_0000",
+      "snr_db": -4.5,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08414716362991323,
+        "TemporalCNN": 0.0782015376470584,
+        "ResNetRF": 0.06255673307459426,
+        "SignalLSTM": 0.042193240048671636,
+        "SignalTransformer": 0.04540324821920919
+      },
+      "metadata": {
+        "snr_db": -4.5,
+        "ensemble_confidence": 0.6824943321113988,
+        "processing_time_ms": 4.788308259111865
+      }
+    },
+    {
+      "id": "signal_0001",
+      "snr_db": 9.02,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09285002373812741,
+        "TemporalCNN": 0.03805279718596388,
+        "ResNetRF": 0.05151503746683269,
+        "SignalLSTM": 0.06165626192172248,
+        "SignalTransformer": 0.0572907482447217
+      },
+      "metadata": {
+        "snr_db": 9.02,
+        "ensemble_confidence": 0.68518894973429,
+        "processing_time_ms": 4.256361906238782
+      }
+    },
+    {
+      "id": "signal_0002",
+      "snr_db": 0.86,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.2538433261331722,
+        "TemporalCNN": 0.10964261140080767,
+        "ResNetRF": 0.15935139822049288,
+        "SignalLSTM": 0.11682697490029874,
+        "SignalTransformer": 0.14940059551894946
+      },
+      "metadata": {
+        "snr_db": 0.86,
+        "ensemble_confidence": 0.739575974632378,
+        "processing_time_ms": 3.532866681942224
+      }
+    },
+    {
+      "id": "signal_0003",
+      "snr_db": 19.83,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08664171666858217,
+        "TemporalCNN": 0.05485881638362189,
+        "ResNetRF": 0.07446483850283754,
+        "SignalLSTM": 0.032080020019426184,
+        "SignalTransformer": 0.07569184472174716
+      },
+      "metadata": {
+        "snr_db": 19.83,
+        "ensemble_confidence": 0.9323266570124776,
+        "processing_time_ms": 1.7693838635617067
+      }
+    },
+    {
+      "id": "signal_0004",
+      "snr_db": -0.19,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1475796341537562,
+        "TemporalCNN": 0.15459710378629438,
+        "ResNetRF": 0.14034540786277674,
+        "SignalLSTM": 0.07504342061452841,
+        "SignalTransformer": 0.12029252639573931
+      },
+      "metadata": {
+        "snr_db": -0.19,
+        "ensemble_confidence": 0.9008874844262119,
+        "processing_time_ms": 3.7035335382568935
+      }
+    },
+    {
+      "id": "signal_0005",
+      "snr_db": 0.45,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10440117656412426,
+        "TemporalCNN": 0.07566958806556516,
+        "ResNetRF": 0.12032278398524658,
+        "SignalLSTM": 0.1340205284907451,
+        "SignalTransformer": 0.13942820627691382
+      },
+      "metadata": {
+        "snr_db": 0.45,
+        "ensemble_confidence": 0.6076257111669928,
+        "processing_time_ms": 2.0409913983661854
+      }
+    },
+    {
+      "id": "signal_0006",
+      "snr_db": 10.47,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.21242033591705264,
+        "TemporalCNN": 0.12686577415836578,
+        "ResNetRF": 0.17799300013986574,
+        "SignalLSTM": 0.072068943363138,
+        "SignalTransformer": 0.15675066263064089
+      },
+      "metadata": {
+        "snr_db": 10.47,
+        "ensemble_confidence": 0.6049414131549535,
+        "processing_time_ms": 4.350455130262422
+      }
+    },
+    {
+      "id": "signal_0007",
+      "snr_db": 9.61,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1430964992178531,
+        "TemporalCNN": 0.15999899010761734,
+        "ResNetRF": 0.11594921713208585,
+        "SignalLSTM": 0.12081739249051344,
+        "SignalTransformer": 0.158810082776366
+      },
+      "metadata": {
+        "snr_db": 9.61,
+        "ensemble_confidence": 0.900798049289955,
+        "processing_time_ms": 2.7975619261829388
+      }
+    },
+    {
+      "id": "signal_0008",
+      "snr_db": 9.11,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.05873617816136818,
+        "TemporalCNN": 0.0870282622390529,
+        "ResNetRF": 0.08333513741476746,
+        "SignalLSTM": 0.05457077623858758,
+        "SignalTransformer": 0.08159044263100872
+      },
+      "metadata": {
+        "snr_db": 9.11,
+        "ensemble_confidence": 0.7143503509034171,
+        "processing_time_ms": 3.6013395046807624
+      }
+    },
+    {
+      "id": "signal_0009",
+      "snr_db": 15.85,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.2775939925340774,
+        "TemporalCNN": 0.12766091985153505,
+        "ResNetRF": 0.14614300076157596,
+        "SignalLSTM": 0.0689165958918173,
+        "SignalTransformer": 0.12717157241512583
+      },
+      "metadata": {
+        "snr_db": 15.85,
+        "ensemble_confidence": 0.7768857792343549,
+        "processing_time_ms": 4.058953215045507
+      }
+    },
+    {
+      "id": "signal_0010",
+      "snr_db": 14.07,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.126643377672869,
+        "TemporalCNN": 0.05662469154230178,
+        "ResNetRF": 0.09782868784955158,
+        "SignalLSTM": 0.021322566547397896,
+        "SignalTransformer": 0.07187333895661543
+      },
+      "metadata": {
+        "snr_db": 14.07,
+        "ensemble_confidence": 0.7703903099713592,
+        "processing_time_ms": 2.3849185982613674
+      }
+    },
+    {
+      "id": "signal_0011",
+      "snr_db": 4.45,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11428596032929651,
+        "TemporalCNN": 0.13154159360040787,
+        "ResNetRF": 0.15832802729767353,
+        "SignalLSTM": 0.10847529820056927,
+        "SignalTransformer": 0.1259427159311176
+      },
+      "metadata": {
+        "snr_db": 4.45,
+        "ensemble_confidence": 0.6906462396962584,
+        "processing_time_ms": 2.8836361444470375
+      }
+    },
+    {
+      "id": "signal_0012",
+      "snr_db": 14.03,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10879156840906465,
+        "TemporalCNN": 0.030349597481838776,
+        "ResNetRF": 0.09623982380445158,
+        "SignalLSTM": 0.014333771740144392,
+        "SignalTransformer": 0.07892416318797549
+      },
+      "metadata": {
+        "snr_db": 14.03,
+        "ensemble_confidence": 0.9108390464913378,
+        "processing_time_ms": 4.297785439955283
+      }
+    },
+    {
+      "id": "signal_0013",
+      "snr_db": 9.63,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.0734245534025462,
+        "TemporalCNN": 0.05857788015722338,
+        "ResNetRF": 0.09835251303869597,
+        "SignalLSTM": 0.05503248030064642,
+        "SignalTransformer": 0.07313747963565549
+      },
+      "metadata": {
+        "snr_db": 9.63,
+        "ensemble_confidence": 0.7975284262280979,
+        "processing_time_ms": 1.6220840779638324
+      }
+    },
+    {
+      "id": "signal_0014",
+      "snr_db": -4.07,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07789673746256444,
+        "TemporalCNN": 0.06176010719381061,
+        "ResNetRF": 0.1349752709148149,
+        "SignalLSTM": 0.05845193874766841,
+        "SignalTransformer": 0.1166624076194833
+      },
+      "metadata": {
+        "snr_db": -4.07,
+        "ensemble_confidence": 0.6082810762644131,
+        "processing_time_ms": 2.718177833507797
+      }
+    },
+    {
+      "id": "signal_0015",
+      "snr_db": 5.34,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18270759045745635,
+        "TemporalCNN": 0.13121093322372335,
+        "ResNetRF": 0.19746155440792734,
+        "SignalLSTM": 0.09658931636323392,
+        "SignalTransformer": 0.11927514551268928
+      },
+      "metadata": {
+        "snr_db": 5.34,
+        "ensemble_confidence": 0.8638218645086727,
+        "processing_time_ms": 3.705587131304849
+      }
+    },
+    {
+      "id": "signal_0016",
+      "snr_db": 10.81,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.23464676292463574,
+        "TemporalCNN": 0.05743396738330765,
+        "ResNetRF": 0.17899943978486182,
+        "SignalLSTM": 0.02061475216705635,
+        "SignalTransformer": 0.12478083029240244
+      },
+      "metadata": {
+        "snr_db": 10.81,
+        "ensemble_confidence": 0.8330710272999214,
+        "processing_time_ms": 3.6117103200839704
+      }
+    },
+    {
+      "id": "signal_0017",
+      "snr_db": -4.4,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08879389320425714,
+        "TemporalCNN": 0.08663726718562555,
+        "ResNetRF": 0.09546970509150278,
+        "SignalLSTM": 0.06361347516655856,
+        "SignalTransformer": 0.07158347236542952
+      },
+      "metadata": {
+        "snr_db": -4.4,
+        "ensemble_confidence": 0.9065846460502827,
+        "processing_time_ms": 2.6440595140259915
+      }
+    },
+    {
+      "id": "signal_0018",
+      "snr_db": 20.06,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10563091697708714,
+        "TemporalCNN": 0.037974982727042944,
+        "ResNetRF": 0.08682042188692968,
+        "SignalLSTM": 0.038269904598006936,
+        "SignalTransformer": 0.05973796982687005
+      },
+      "metadata": {
+        "snr_db": 20.06,
+        "ensemble_confidence": 0.6619798031055053,
+        "processing_time_ms": 1.9778263314547582
+      }
+    },
+    {
+      "id": "signal_0019",
+      "snr_db": 4.17,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16023160360151165,
+        "TemporalCNN": 0.115180016181111,
+        "ResNetRF": 0.104207575343997,
+        "SignalLSTM": 0.07214062864950614,
+        "SignalTransformer": 0.11529128084622718
+      },
+      "metadata": {
+        "snr_db": 4.17,
+        "ensemble_confidence": 0.8327154082391792,
+        "processing_time_ms": 3.7421565107548886
+      }
+    },
+    {
+      "id": "signal_0020",
+      "snr_db": -0.76,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.13784659867007368,
+        "TemporalCNN": 0.10080692317926111,
+        "ResNetRF": 0.147452433763196,
+        "SignalLSTM": 0.10460982358487797,
+        "SignalTransformer": 0.10226469626557738
+      },
+      "metadata": {
+        "snr_db": -0.76,
+        "ensemble_confidence": 0.7261309033292006,
+        "processing_time_ms": 1.5438275261621905
+      }
+    },
+    {
+      "id": "signal_0021",
+      "snr_db": 0.5,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12681312406421233,
+        "TemporalCNN": 0.1375655326236768,
+        "ResNetRF": 0.15791321856555038,
+        "SignalLSTM": 0.13053442989196024,
+        "SignalTransformer": 0.11845823599071081
+      },
+      "metadata": {
+        "snr_db": 0.5,
+        "ensemble_confidence": 0.8515334989180977,
+        "processing_time_ms": 2.1700768973014277
+      }
+    },
+    {
+      "id": "signal_0022",
+      "snr_db": 0.99,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09706357903032599,
+        "TemporalCNN": 0.05285861415330723,
+        "ResNetRF": 0.10484816319138131,
+        "SignalLSTM": 0.0776453347988171,
+        "SignalTransformer": 0.06924022359950817
+      },
+      "metadata": {
+        "snr_db": 0.99,
+        "ensemble_confidence": 0.6119611677635176,
+        "processing_time_ms": 3.099208874444003
+      }
+    },
+    {
+      "id": "signal_0023",
+      "snr_db": 0.0,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11324445692084953,
+        "TemporalCNN": 0.1483022162338973,
+        "ResNetRF": 0.20757173640017662,
+        "SignalLSTM": 0.1258989074215395,
+        "SignalTransformer": 0.1801916917241058
+      },
+      "metadata": {
+        "snr_db": 0.0,
+        "ensemble_confidence": 0.6173384718171482,
+        "processing_time_ms": 3.082143648690789
+      }
+    },
+    {
+      "id": "signal_0024",
+      "snr_db": 10.01,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18176308160241014,
+        "TemporalCNN": 0.025716036157830822,
+        "ResNetRF": 0.0845010996779154,
+        "SignalLSTM": 0.04468641429599044,
+        "SignalTransformer": 0.05709285105517812
+      },
+      "metadata": {
+        "snr_db": 10.01,
+        "ensemble_confidence": 0.6712362714333354,
+        "processing_time_ms": 2.5669498248725455
+      }
+    },
+    {
+      "id": "signal_0025",
+      "snr_db": -5.24,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.06371596841469479,
+        "TemporalCNN": 0.19081527393202755,
+        "ResNetRF": 0.06699216989361423,
+        "SignalLSTM": 0.13553710993800389,
+        "SignalTransformer": 0.04848715048508693
+      },
+      "metadata": {
+        "snr_db": -5.24,
+        "ensemble_confidence": 0.690689182308883,
+        "processing_time_ms": 2.3666669091308954
+      }
+    },
+    {
+      "id": "signal_0026",
+      "snr_db": -4.46,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10933656561770794,
+        "TemporalCNN": 0.1230042072928442,
+        "ResNetRF": 0.13659319352280533,
+        "SignalLSTM": 0.07024627665047743,
+        "SignalTransformer": 0.0747605245469792
+      },
+      "metadata": {
+        "snr_db": -4.46,
+        "ensemble_confidence": 0.8991805495565577,
+        "processing_time_ms": 2.5607848011784755
+      }
+    },
+    {
+      "id": "signal_0027",
+      "snr_db": -10.77,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.0595818851295068,
+        "TemporalCNN": 0.1439074879826337,
+        "ResNetRF": 0.0692863066914189,
+        "SignalLSTM": 0.09845669556268671,
+        "SignalTransformer": 0.006102330364966705
+      },
+      "metadata": {
+        "snr_db": -10.77,
+        "ensemble_confidence": 0.9341704436781246,
+        "processing_time_ms": 1.7009947603718842
+      }
+    },
+    {
+      "id": "signal_0028",
+      "snr_db": -0.67,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17043258950654935,
+        "TemporalCNN": 0.11748837125274438,
+        "ResNetRF": 0.23157654017355694,
+        "SignalLSTM": 0.10676619254365471,
+        "SignalTransformer": 0.1376721390539245
+      },
+      "metadata": {
+        "snr_db": -0.67,
+        "ensemble_confidence": 0.8672773166122363,
+        "processing_time_ms": 4.253328705742313
+      }
+    },
+    {
+      "id": "signal_0029",
+      "snr_db": 4.61,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17058675691907427,
+        "TemporalCNN": 0.11618799455121591,
+        "ResNetRF": 0.1633405720017424,
+        "SignalLSTM": 0.13384072544671824,
+        "SignalTransformer": 0.15097201046092765
+      },
+      "metadata": {
+        "snr_db": 4.61,
+        "ensemble_confidence": 0.9442441911592616,
+        "processing_time_ms": 1.8375441068233305
+      }
+    },
+    {
+      "id": "signal_0030",
+      "snr_db": -5.3,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.016829188407572266,
+        "TemporalCNN": 0.13422265344739015,
+        "ResNetRF": 0.024750742656803663,
+        "SignalLSTM": 0.14190579202667253,
+        "SignalTransformer": 0.04028082595808008
+      },
+      "metadata": {
+        "snr_db": -5.3,
+        "ensemble_confidence": 0.9225842595698347,
+        "processing_time_ms": 1.202707099587057
+      }
+    },
+    {
+      "id": "signal_0031",
+      "snr_db": 0.41,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11072763686416333,
+        "TemporalCNN": 0.10357734051416234,
+        "ResNetRF": 0.08486982267113084,
+        "SignalLSTM": 0.04277747114005398,
+        "SignalTransformer": 0.06358585500005724
+      },
+      "metadata": {
+        "snr_db": 0.41,
+        "ensemble_confidence": 0.7031547597274643,
+        "processing_time_ms": 2.9912965819492654
+      }
+    },
+    {
+      "id": "signal_0032",
+      "snr_db": -10.8,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.017406500425156096,
+        "TemporalCNN": 0.19823808860248507,
+        "ResNetRF": 0.05138274428812376,
+        "SignalLSTM": 0.12445758490339041,
+        "SignalTransformer": 0.0019638970925248194
+      },
+      "metadata": {
+        "snr_db": -10.8,
+        "ensemble_confidence": 0.6251406641437675,
+        "processing_time_ms": 3.093182737410652
+      }
+    },
+    {
+      "id": "signal_0033",
+      "snr_db": -0.79,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.22707983096113213,
+        "TemporalCNN": 0.19986856250265803,
+        "ResNetRF": 0.16378446975863065,
+        "SignalLSTM": 0.079181207850058,
+        "SignalTransformer": 0.08360043842850354
+      },
+      "metadata": {
+        "snr_db": -0.79,
+        "ensemble_confidence": 0.661864753854493,
+        "processing_time_ms": 3.767286864753544
+      }
+    },
+    {
+      "id": "signal_0034",
+      "snr_db": 19.66,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1939187696855189,
+        "TemporalCNN": 0.08466386704319581,
+        "ResNetRF": 0.17805055012066803,
+        "SignalLSTM": 0.05528502625101657,
+        "SignalTransformer": 0.09619387388648235
+      },
+      "metadata": {
+        "snr_db": 19.66,
+        "ensemble_confidence": 0.6124409673916276,
+        "processing_time_ms": 3.63310161585063
+      }
+    },
+    {
+      "id": "signal_0035",
+      "snr_db": 19.19,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16153995581768657,
+        "TemporalCNN": 0.024610834588406544,
+        "ResNetRF": 0.10212958793456174,
+        "SignalLSTM": 0.014957687582742909,
+        "SignalTransformer": 0.08032022183442246
+      },
+      "metadata": {
+        "snr_db": 19.19,
+        "ensemble_confidence": 0.8490163267151907,
+        "processing_time_ms": 3.270197653556292
+      }
+    },
+    {
+      "id": "signal_0036",
+      "snr_db": 14.64,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10929288762202183,
+        "TemporalCNN": 0.03302088394107038,
+        "ResNetRF": 0.08296065002958856,
+        "SignalLSTM": 0.03501090260646583,
+        "SignalTransformer": 0.09199091558566815
+      },
+      "metadata": {
+        "snr_db": 14.64,
+        "ensemble_confidence": 0.6883273241747683,
+        "processing_time_ms": 3.7894815189612556
+      }
+    },
+    {
+      "id": "signal_0037",
+      "snr_db": 4.73,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09491013746915641,
+        "TemporalCNN": 0.06492656597360863,
+        "ResNetRF": 0.11888356174411277,
+        "SignalLSTM": 0.10398772921581326,
+        "SignalTransformer": 0.09710406817119364
+      },
+      "metadata": {
+        "snr_db": 4.73,
+        "ensemble_confidence": 0.6550011626338983,
+        "processing_time_ms": 1.9481782209438934
+      }
+    },
+    {
+      "id": "signal_0038",
+      "snr_db": 0.45,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16239057546512395,
+        "TemporalCNN": 0.13391643788593413,
+        "ResNetRF": 0.16557039305711013,
+        "SignalLSTM": 0.06926278405795985,
+        "SignalTransformer": 0.09057189475043433
+      },
+      "metadata": {
+        "snr_db": 0.45,
+        "ensemble_confidence": 0.9203018077259096,
+        "processing_time_ms": 2.063686114999841
+      }
+    },
+    {
+      "id": "signal_0039",
+      "snr_db": -0.9,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07772851637782345,
+        "TemporalCNN": 0.06669429010262642,
+        "ResNetRF": 0.09522778574185527,
+        "SignalLSTM": 0.02810626028095374,
+        "SignalTransformer": 0.08040792381597257
+      },
+      "metadata": {
+        "snr_db": -0.9,
+        "ensemble_confidence": 0.8508933777780125,
+        "processing_time_ms": 2.216215223824328
+      }
+    },
+    {
+      "id": "signal_0040",
+      "snr_db": -5.7,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.05914103195798639,
+        "TemporalCNN": 0.2861922993132762,
+        "ResNetRF": 0.13423306439001423,
+        "SignalLSTM": 0.15371107931954864,
+        "SignalTransformer": 0.0634181595129097
+      },
+      "metadata": {
+        "snr_db": -5.7,
+        "ensemble_confidence": 0.7498886675862007,
+        "processing_time_ms": 2.210837960534578
+      }
+    },
+    {
+      "id": "signal_0041",
+      "snr_db": 14.78,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18873344171762807,
+        "TemporalCNN": 0.0789978957228669,
+        "ResNetRF": 0.12675225657750439,
+        "SignalLSTM": 0.051473631635809446,
+        "SignalTransformer": 0.14844206320039166
+      },
+      "metadata": {
+        "snr_db": 14.78,
+        "ensemble_confidence": 0.9439952818927844,
+        "processing_time_ms": 3.2924940724347174
+      }
+    },
+    {
+      "id": "signal_0042",
+      "snr_db": 9.15,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.130835639070192,
+        "TemporalCNN": 0.1249947269695258,
+        "ResNetRF": 0.08916077885733328,
+        "SignalLSTM": 0.08889664897695465,
+        "SignalTransformer": 0.0579113082442489
+      },
+      "metadata": {
+        "snr_db": 9.15,
+        "ensemble_confidence": 0.8340706186498985,
+        "processing_time_ms": 1.4134746020320317
+      }
+    },
+    {
+      "id": "signal_0043",
+      "snr_db": 10.86,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.32752551665684887,
+        "TemporalCNN": 0.04904965403125832,
+        "ResNetRF": 0.19156404839529118,
+        "SignalLSTM": 0.02364624249316078,
+        "SignalTransformer": 0.14372845183405716
+      },
+      "metadata": {
+        "snr_db": 10.86,
+        "ensemble_confidence": 0.8151008648656272,
+        "processing_time_ms": 4.014825308263367
+      }
+    },
+    {
+      "id": "signal_0044",
+      "snr_db": 10.48,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1540205563547198,
+        "TemporalCNN": 0.08319133435688428,
+        "ResNetRF": 0.12580785456473156,
+        "SignalLSTM": 0.05141975642017259,
+        "SignalTransformer": 0.06298063865029356
+      },
+      "metadata": {
+        "snr_db": 10.48,
+        "ensemble_confidence": 0.9263709652238727,
+        "processing_time_ms": 2.863079199074546
+      }
+    },
+    {
+      "id": "signal_0045",
+      "snr_db": 5.32,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1105458489514609,
+        "TemporalCNN": 0.1292638762530812,
+        "ResNetRF": 0.1612564706483386,
+        "SignalLSTM": 0.07877583261081023,
+        "SignalTransformer": 0.09950968964128097
+      },
+      "metadata": {
+        "snr_db": 5.32,
+        "ensemble_confidence": 0.6076174267155526,
+        "processing_time_ms": 2.4875718085076697
+      }
+    },
+    {
+      "id": "signal_0046",
+      "snr_db": 5.58,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.15937615669416022,
+        "TemporalCNN": 0.1028581684385532,
+        "ResNetRF": 0.1446507776318755,
+        "SignalLSTM": 0.1229143292933362,
+        "SignalTransformer": 0.14677190602806495
+      },
+      "metadata": {
+        "snr_db": 5.58,
+        "ensemble_confidence": 0.7065203103711489,
+        "processing_time_ms": 1.2253226325470299
+      }
+    },
+    {
+      "id": "signal_0047",
+      "snr_db": 4.01,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11507007241823564,
+        "TemporalCNN": 0.06057049346490251,
+        "ResNetRF": 0.12309322947625641,
+        "SignalLSTM": 0.065642210063183,
+        "SignalTransformer": 0.08029359964105126
+      },
+      "metadata": {
+        "snr_db": 4.01,
+        "ensemble_confidence": 0.7488442340905352,
+        "processing_time_ms": 4.687342708157767
+      }
+    },
+    {
+      "id": "signal_0048",
+      "snr_db": 19.07,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.19746567404902265,
+        "TemporalCNN": 0.07007400078822164,
+        "ResNetRF": 0.16926246419122493,
+        "SignalLSTM": 0.03936568103595776,
+        "SignalTransformer": 0.1269070015085751
+      },
+      "metadata": {
+        "snr_db": 19.07,
+        "ensemble_confidence": 0.8022710949415695,
+        "processing_time_ms": 3.534394380512582
+      }
+    },
+    {
+      "id": "signal_0049",
+      "snr_db": 0.15,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07584100001739462,
+        "TemporalCNN": 0.11347188637126059,
+        "ResNetRF": 0.10188069856055106,
+        "SignalLSTM": 0.04441754631596505,
+        "SignalTransformer": 0.09024755149513013
+      },
+      "metadata": {
+        "snr_db": 0.15,
+        "ensemble_confidence": 0.7890170018892082,
+        "processing_time_ms": 2.2908740006704704
+      }
+    },
+    {
+      "id": "signal_0050",
+      "snr_db": 5.87,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.0630712312755583,
+        "TemporalCNN": 0.05187968599268019,
+        "ResNetRF": 0.08215726340585705,
+        "SignalLSTM": 0.07226601783919913,
+        "SignalTransformer": 0.05057614803563749
+      },
+      "metadata": {
+        "snr_db": 5.87,
+        "ensemble_confidence": 0.8771355009129185,
+        "processing_time_ms": 1.554662786706158
+      }
+    },
+    {
+      "id": "signal_0051",
+      "snr_db": -4.74,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16258139712154732,
+        "TemporalCNN": 0.09927097243617108,
+        "ResNetRF": 0.12663990198199454,
+        "SignalLSTM": 0.14265594246759766,
+        "SignalTransformer": 0.16355449801041036
+      },
+      "metadata": {
+        "snr_db": -4.74,
+        "ensemble_confidence": 0.9023915904058231,
+        "processing_time_ms": 3.696950244953543
+      }
+    },
+    {
+      "id": "signal_0052",
+      "snr_db": 9.48,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17398427411841536,
+        "TemporalCNN": 0.18535045230125632,
+        "ResNetRF": 0.20170013893048103,
+        "SignalLSTM": 0.11165603613239193,
+        "SignalTransformer": 0.12458492828347723
+      },
+      "metadata": {
+        "snr_db": 9.48,
+        "ensemble_confidence": 0.9007244620835744,
+        "processing_time_ms": 2.5770042064911394
+      }
+    },
+    {
+      "id": "signal_0053",
+      "snr_db": 19.08,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09749495838605021,
+        "TemporalCNN": 0.0363194853541918,
+        "ResNetRF": 0.08192526119911797,
+        "SignalLSTM": 0.036805983451753045,
+        "SignalTransformer": 0.07982585319132508
+      },
+      "metadata": {
+        "snr_db": 19.08,
+        "ensemble_confidence": 0.7571896437701403,
+        "processing_time_ms": 3.6747915273228298
+      }
+    },
+    {
+      "id": "signal_0054",
+      "snr_db": 9.69,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.13652071067786792,
+        "TemporalCNN": 0.1319147663526139,
+        "ResNetRF": 0.17388856059550895,
+        "SignalLSTM": 0.0996160708635933,
+        "SignalTransformer": 0.12884851715181905
+      },
+      "metadata": {
+        "snr_db": 9.69,
+        "ensemble_confidence": 0.6523567875690021,
+        "processing_time_ms": 3.9294676255039613
+      }
+    },
+    {
+      "id": "signal_0055",
+      "snr_db": 4.01,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.06441638922781168,
+        "TemporalCNN": 0.05353544626517682,
+        "ResNetRF": 0.06304045038173385,
+        "SignalLSTM": 0.0715377960371433,
+        "SignalTransformer": 0.06989423467172683
+      },
+      "metadata": {
+        "snr_db": 4.01,
+        "ensemble_confidence": 0.6336319548621647,
+        "processing_time_ms": 4.7579952995743735
+      }
+    },
+    {
+      "id": "signal_0056",
+      "snr_db": 9.54,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18024401141887839,
+        "TemporalCNN": 0.14504192892203177,
+        "ResNetRF": 0.17860385309780946,
+        "SignalLSTM": 0.06353211838779005,
+        "SignalTransformer": 0.15813799925181948
+      },
+      "metadata": {
+        "snr_db": 9.54,
+        "ensemble_confidence": 0.8086001540929951,
+        "processing_time_ms": 2.9591607734627026
+      }
+    },
+    {
+      "id": "signal_0057",
+      "snr_db": 4.04,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.21552163898516277,
+        "TemporalCNN": 0.1278970876116552,
+        "ResNetRF": 0.10992914773830323,
+        "SignalLSTM": 0.07771049934471139,
+        "SignalTransformer": 0.12660339230966622
+      },
+      "metadata": {
+        "snr_db": 4.04,
+        "ensemble_confidence": 0.8569455756940116,
+        "processing_time_ms": 1.816836084194609
+      }
+    },
+    {
+      "id": "signal_0058",
+      "snr_db": -15.26,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1191091525200982,
+        "TemporalCNN": 0.2040638878440125,
+        "ResNetRF": 0.09981628085455563,
+        "SignalLSTM": 0.2564274554964896,
+        "SignalTransformer": -0.034083122988766756
+      },
+      "metadata": {
+        "snr_db": -15.26,
+        "ensemble_confidence": 0.630696142649836,
+        "processing_time_ms": 2.3883336370328823
+      }
+    },
+    {
+      "id": "signal_0059",
+      "snr_db": 10.03,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11440268923264722,
+        "TemporalCNN": 0.04393439141448117,
+        "ResNetRF": 0.10881713697130851,
+        "SignalLSTM": 0.016557728859628033,
+        "SignalTransformer": 0.11471032541001826
+      },
+      "metadata": {
+        "snr_db": 10.03,
+        "ensemble_confidence": 0.8918794593550177,
+        "processing_time_ms": 3.5492023463008078
+      }
+    },
+    {
+      "id": "signal_0060",
+      "snr_db": 4.94,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09459694773960861,
+        "TemporalCNN": 0.07322233941353715,
+        "ResNetRF": 0.08552352281283737,
+        "SignalLSTM": 0.036493381504864586,
+        "SignalTransformer": 0.06278152269047281
+      },
+      "metadata": {
+        "snr_db": 4.94,
+        "ensemble_confidence": 0.6885138492562585,
+        "processing_time_ms": 4.169514379705341
+      }
+    },
+    {
+      "id": "signal_0061",
+      "snr_db": -4.31,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.06856903973237499,
+        "TemporalCNN": 0.10956601309449726,
+        "ResNetRF": 0.08835386401215206,
+        "SignalLSTM": 0.04126318681094243,
+        "SignalTransformer": 0.062016187607962424
+      },
+      "metadata": {
+        "snr_db": -4.31,
+        "ensemble_confidence": 0.8761147412319952,
+        "processing_time_ms": 3.852659851348876
+      }
+    },
+    {
+      "id": "signal_0062",
+      "snr_db": 10.0,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.198682721917366,
+        "TemporalCNN": 0.10414267999966752,
+        "ResNetRF": 0.2002861061549171,
+        "SignalLSTM": 0.1246300532575135,
+        "SignalTransformer": 0.1097368712589943
+      },
+      "metadata": {
+        "snr_db": 10.0,
+        "ensemble_confidence": 0.7719338551066127,
+        "processing_time_ms": 2.6337322753620716
+      }
+    },
+    {
+      "id": "signal_0063",
+      "snr_db": -0.61,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10298389244397893,
+        "TemporalCNN": 0.0826372689116991,
+        "ResNetRF": 0.074398182630134,
+        "SignalLSTM": 0.08312781112944101,
+        "SignalTransformer": 0.06926144144457021
+      },
+      "metadata": {
+        "snr_db": -0.61,
+        "ensemble_confidence": 0.7980147380015129,
+        "processing_time_ms": 4.13172433113488
+      }
+    },
+    {
+      "id": "signal_0064",
+      "snr_db": -4.03,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.21099028038187093,
+        "TemporalCNN": 0.10224219259737687,
+        "ResNetRF": 0.13173070293415998,
+        "SignalLSTM": 0.08954780920752003,
+        "SignalTransformer": 0.10796890491449342
+      },
+      "metadata": {
+        "snr_db": -4.03,
+        "ensemble_confidence": 0.6148370492805667,
+        "processing_time_ms": 3.2784787601224687
+      }
+    },
+    {
+      "id": "signal_0065",
+      "snr_db": 5.8,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.06990546085261916,
+        "TemporalCNN": 0.09102115722450323,
+        "ResNetRF": 0.12280679311768436,
+        "SignalLSTM": 0.05431365614721171,
+        "SignalTransformer": 0.0875327766382076
+      },
+      "metadata": {
+        "snr_db": 5.8,
+        "ensemble_confidence": 0.7629031900658781,
+        "processing_time_ms": 2.2375626130115553
+      }
+    },
+    {
+      "id": "signal_0066",
+      "snr_db": 0.2,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1358125144547762,
+        "TemporalCNN": 0.0832370303161017,
+        "ResNetRF": 0.12946648905304786,
+        "SignalLSTM": 0.10194636343737674,
+        "SignalTransformer": 0.07180034554978203
+      },
+      "metadata": {
+        "snr_db": 0.2,
+        "ensemble_confidence": 0.6093802650449525,
+        "processing_time_ms": 1.2076888222531175
+      }
+    },
+    {
+      "id": "signal_0067",
+      "snr_db": -10.81,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.050247193945375974,
+        "TemporalCNN": 0.3063808109684293,
+        "ResNetRF": 0.14673250996672016,
+        "SignalLSTM": 0.17469461668693118,
+        "SignalTransformer": -0.039086430366967795
+      },
+      "metadata": {
+        "snr_db": -10.81,
+        "ensemble_confidence": 0.618194506475961,
+        "processing_time_ms": 3.582037324167719
+      }
+    },
+    {
+      "id": "signal_0068",
+      "snr_db": -10.06,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.04382350845228428,
+        "TemporalCNN": 0.16743796821172893,
+        "ResNetRF": 0.03579188318138133,
+        "SignalLSTM": 0.11637713204210418,
+        "SignalTransformer": 0.03995451907719729
+      },
+      "metadata": {
+        "snr_db": -10.06,
+        "ensemble_confidence": 0.84680044788518,
+        "processing_time_ms": 2.370134013035008
+      }
+    },
+    {
+      "id": "signal_0069",
+      "snr_db": 5.05,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09577202343498024,
+        "TemporalCNN": 0.07198078312248603,
+        "ResNetRF": 0.049273800554957226,
+        "SignalLSTM": 0.039416483338520394,
+        "SignalTransformer": 0.0450723799812909
+      },
+      "metadata": {
+        "snr_db": 5.05,
+        "ensemble_confidence": 0.6837302021501821,
+        "processing_time_ms": 1.6592986967822512
+      }
+    },
+    {
+      "id": "signal_0070",
+      "snr_db": 10.81,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16648658371992156,
+        "TemporalCNN": 0.04078882996257395,
+        "ResNetRF": 0.17935728369409662,
+        "SignalLSTM": 0.07427828838345014,
+        "SignalTransformer": 0.11289021850498238
+      },
+      "metadata": {
+        "snr_db": 10.81,
+        "ensemble_confidence": 0.908716181282249,
+        "processing_time_ms": 2.869405173252397
+      }
+    },
+    {
+      "id": "signal_0071",
+      "snr_db": -15.43,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.044936309181959184,
+        "TemporalCNN": 0.2077391740838027,
+        "ResNetRF": 0.06326715091904078,
+        "SignalLSTM": 0.16642199225748092,
+        "SignalTransformer": -0.007602386707516874
+      },
+      "metadata": {
+        "snr_db": -15.43,
+        "ensemble_confidence": 0.7018802407767142,
+        "processing_time_ms": 1.5238863184907196
+      }
+    },
+    {
+      "id": "signal_0072",
+      "snr_db": -0.63,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1406238613286246,
+        "TemporalCNN": 0.16686919961165672,
+        "ResNetRF": 0.1497719514680032,
+        "SignalLSTM": 0.0916011027932639,
+        "SignalTransformer": 0.12419513484498472
+      },
+      "metadata": {
+        "snr_db": -0.63,
+        "ensemble_confidence": 0.653341957152627,
+        "processing_time_ms": 1.7081802250429652
+      }
+    },
+    {
+      "id": "signal_0073",
+      "snr_db": 15.29,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.2692773408974471,
+        "TemporalCNN": 0.034458152015646566,
+        "ResNetRF": 0.15861758294195477,
+        "SignalLSTM": 0.07700579323599412,
+        "SignalTransformer": 0.16209869099350532
+      },
+      "metadata": {
+        "snr_db": 15.29,
+        "ensemble_confidence": 0.6209220044067476,
+        "processing_time_ms": 3.918274720251919
+      }
+    },
+    {
+      "id": "signal_0074",
+      "snr_db": -0.9,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11717667549305802,
+        "TemporalCNN": 0.09271364426538971,
+        "ResNetRF": 0.06498829410026521,
+        "SignalLSTM": 0.03701109392064079,
+        "SignalTransformer": 0.07209698481012192
+      },
+      "metadata": {
+        "snr_db": -0.9,
+        "ensemble_confidence": 0.6835611920946038,
+        "processing_time_ms": 3.6730766785451783
+      }
+    },
+    {
+      "id": "signal_0075",
+      "snr_db": -5.53,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.029895103440888127,
+        "TemporalCNN": 0.32644751605418193,
+        "ResNetRF": 0.1155272693851732,
+        "SignalLSTM": 0.16396352068641656,
+        "SignalTransformer": -0.03359948170739407
+      },
+      "metadata": {
+        "snr_db": -5.53,
+        "ensemble_confidence": 0.6044948455513083,
+        "processing_time_ms": 3.1470801281205034
+      }
+    },
+    {
+      "id": "signal_0076",
+      "snr_db": -4.89,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17465265158712373,
+        "TemporalCNN": 0.10173492876759319,
+        "ResNetRF": 0.23920046366978936,
+        "SignalLSTM": 0.12853750625802846,
+        "SignalTransformer": 0.09964444542354009
+      },
+      "metadata": {
+        "snr_db": -4.89,
+        "ensemble_confidence": 0.9218434972563252,
+        "processing_time_ms": 2.9936349479951003
+      }
+    },
+    {
+      "id": "signal_0077",
+      "snr_db": -10.89,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.030583124627166055,
+        "TemporalCNN": 0.14129694034757476,
+        "ResNetRF": 0.05122337812497692,
+        "SignalLSTM": 0.08073874448631709,
+        "SignalTransformer": 0.039831008127082596
+      },
+      "metadata": {
+        "snr_db": -10.89,
+        "ensemble_confidence": 0.8692401483277029,
+        "processing_time_ms": 4.073583370437637
+      }
+    },
+    {
+      "id": "signal_0078",
+      "snr_db": 10.22,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09379265322756902,
+        "TemporalCNN": 0.049123271189718494,
+        "ResNetRF": 0.0902309232819301,
+        "SignalLSTM": 0.032794565367017976,
+        "SignalTransformer": 0.08039187974718215
+      },
+      "metadata": {
+        "snr_db": 10.22,
+        "ensemble_confidence": 0.9195130636613834,
+        "processing_time_ms": 3.496965312672354
+      }
+    },
+    {
+      "id": "signal_0079",
+      "snr_db": -4.9,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.19453040370120347,
+        "TemporalCNN": 0.13926557445787469,
+        "ResNetRF": 0.14990864313707736,
+        "SignalLSTM": 0.11605416255213559,
+        "SignalTransformer": 0.14206778489546468
+      },
+      "metadata": {
+        "snr_db": -4.9,
+        "ensemble_confidence": 0.6638570457466352,
+        "processing_time_ms": 3.307472100068904
+      }
+    },
+    {
+      "id": "signal_0080",
+      "snr_db": 4.15,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.06831758060270156,
+        "TemporalCNN": 0.08744584372787853,
+        "ResNetRF": 0.09263827898955308,
+        "SignalLSTM": 0.035811926963339284,
+        "SignalTransformer": 0.059429812482201534
+      },
+      "metadata": {
+        "snr_db": 4.15,
+        "ensemble_confidence": 0.6930955820594341,
+        "processing_time_ms": 3.1229557307075027
+      }
+    },
+    {
+      "id": "signal_0081",
+      "snr_db": 10.75,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18213523716784868,
+        "TemporalCNN": 0.029459000664522096,
+        "ResNetRF": 0.15812639346989624,
+        "SignalLSTM": 0.032320300423231155,
+        "SignalTransformer": 0.12671188580581585
+      },
+      "metadata": {
+        "snr_db": 10.75,
+        "ensemble_confidence": 0.9312615802778059,
+        "processing_time_ms": 4.550367823919294
+      }
+    },
+    {
+      "id": "signal_0082",
+      "snr_db": -0.16,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1867285953679711,
+        "TemporalCNN": 0.11435905609756573,
+        "ResNetRF": 0.11971690180079612,
+        "SignalLSTM": 0.08959490792507759,
+        "SignalTransformer": 0.10990351659624421
+      },
+      "metadata": {
+        "snr_db": -0.16,
+        "ensemble_confidence": 0.7824763525067278,
+        "processing_time_ms": 2.74692627157412
+      }
+    },
+    {
+      "id": "signal_0083",
+      "snr_db": 9.95,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.15191123841872814,
+        "TemporalCNN": 0.08101649219749991,
+        "ResNetRF": 0.2024737456493147,
+        "SignalLSTM": 0.061470176968536044,
+        "SignalTransformer": 0.12080889613655062
+      },
+      "metadata": {
+        "snr_db": 9.95,
+        "ensemble_confidence": 0.875836006809986,
+        "processing_time_ms": 2.8131960297460266
+      }
+    },
+    {
+      "id": "signal_0084",
+      "snr_db": 0.24,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.14960420698452512,
+        "TemporalCNN": 0.11634809863363932,
+        "ResNetRF": 0.17302106792606933,
+        "SignalLSTM": 0.0870186117175589,
+        "SignalTransformer": 0.11726730143277417
+      },
+      "metadata": {
+        "snr_db": 0.24,
+        "ensemble_confidence": 0.6241004627439534,
+        "processing_time_ms": 3.7916902936970116
+      }
+    },
+    {
+      "id": "signal_0085",
+      "snr_db": 15.82,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18705907409862946,
+        "TemporalCNN": 0.08433645622907306,
+        "ResNetRF": 0.1277300655121917,
+        "SignalLSTM": 0.04149166904332033,
+        "SignalTransformer": 0.09649531230592884
+      },
+      "metadata": {
+        "snr_db": 15.82,
+        "ensemble_confidence": 0.7797573765546675,
+        "processing_time_ms": 1.4002175784925668
+      }
+    },
+    {
+      "id": "signal_0086",
+      "snr_db": 4.49,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.19887941219398808,
+        "TemporalCNN": 0.09797319961763881,
+        "ResNetRF": 0.11761167565754892,
+        "SignalLSTM": 0.12121094912194177,
+        "SignalTransformer": 0.1117298290962675
+      },
+      "metadata": {
+        "snr_db": 4.49,
+        "ensemble_confidence": 0.8318786734834396,
+        "processing_time_ms": 4.729937155990201
+      }
+    },
+    {
+      "id": "signal_0087",
+      "snr_db": 5.83,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.13168913713574057,
+        "TemporalCNN": 0.16271113833349826,
+        "ResNetRF": 0.20207174785372417,
+        "SignalLSTM": 0.12887532535265428,
+        "SignalTransformer": 0.1302575913998041
+      },
+      "metadata": {
+        "snr_db": 5.83,
+        "ensemble_confidence": 0.8562806066779299,
+        "processing_time_ms": 1.9228928520165427
+      }
+    },
+    {
+      "id": "signal_0088",
+      "snr_db": 15.04,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12018954765293546,
+        "TemporalCNN": 0.024714494302041753,
+        "ResNetRF": 0.13833616652309108,
+        "SignalLSTM": 0.018742057633708963,
+        "SignalTransformer": 0.08720395832994139
+      },
+      "metadata": {
+        "snr_db": 15.04,
+        "ensemble_confidence": 0.6612014641166584,
+        "processing_time_ms": 4.384690626736266
+      }
+    },
+    {
+      "id": "signal_0089",
+      "snr_db": 4.16,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.116824980923413,
+        "TemporalCNN": 0.10675829951017603,
+        "ResNetRF": 0.12569716544134035,
+        "SignalLSTM": 0.10983308110327676,
+        "SignalTransformer": 0.1123241786579553
+      },
+      "metadata": {
+        "snr_db": 4.16,
+        "ensemble_confidence": 0.8291673552561589,
+        "processing_time_ms": 2.2647976726268717
+      }
+    },
+    {
+      "id": "signal_0090",
+      "snr_db": 0.93,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1484243870189139,
+        "TemporalCNN": 0.12845115669275015,
+        "ResNetRF": 0.1477003686155591,
+        "SignalLSTM": 0.11901719532702447,
+        "SignalTransformer": 0.08549561354367888
+      },
+      "metadata": {
+        "snr_db": 0.93,
+        "ensemble_confidence": 0.8564687882488302,
+        "processing_time_ms": 3.6351167590577615
+      }
+    },
+    {
+      "id": "signal_0091",
+      "snr_db": 4.72,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11552265415133983,
+        "TemporalCNN": 0.0870655474753118,
+        "ResNetRF": 0.1218899826693519,
+        "SignalLSTM": 0.07801845145369428,
+        "SignalTransformer": 0.09092770238403335
+      },
+      "metadata": {
+        "snr_db": 4.72,
+        "ensemble_confidence": 0.8181646407715206,
+        "processing_time_ms": 4.42303840931848
+      }
+    },
+    {
+      "id": "signal_0092",
+      "snr_db": -14.62,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.031926705135923245,
+        "TemporalCNN": 0.31910549002666283,
+        "ResNetRF": 0.12761216744074896,
+        "SignalLSTM": 0.1746977522246554,
+        "SignalTransformer": 0.07805203935140131
+      },
+      "metadata": {
+        "snr_db": -14.62,
+        "ensemble_confidence": 0.6399376644055715,
+        "processing_time_ms": 1.7500551100694666
+      }
+    },
+    {
+      "id": "signal_0093",
+      "snr_db": -15.56,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.024903591073057316,
+        "TemporalCNN": 0.15389017179043496,
+        "ResNetRF": 0.05455485853213159,
+        "SignalLSTM": 0.10059842110999681,
+        "SignalTransformer": -0.02039641904128854
+      },
+      "metadata": {
+        "snr_db": -15.56,
+        "ensemble_confidence": 0.7319881466725608,
+        "processing_time_ms": 1.6559110335143512
+      }
+    },
+    {
+      "id": "signal_0094",
+      "snr_db": -5.31,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.050429607203212476,
+        "TemporalCNN": 0.32035759061296504,
+        "ResNetRF": 0.055966546849592645,
+        "SignalLSTM": 0.17920133635275515,
+        "SignalTransformer": -0.027428622142811315
+      },
+      "metadata": {
+        "snr_db": -5.31,
+        "ensemble_confidence": 0.8631693522418538,
+        "processing_time_ms": 4.103963886268233
+      }
+    },
+    {
+      "id": "signal_0095",
+      "snr_db": -0.42,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17323434593826537,
+        "TemporalCNN": 0.1503358674685649,
+        "ResNetRF": 0.14591967621724236,
+        "SignalLSTM": 0.08896908924401795,
+        "SignalTransformer": 0.11409131223588674
+      },
+      "metadata": {
+        "snr_db": -0.42,
+        "ensemble_confidence": 0.6198069917436339,
+        "processing_time_ms": 4.625346004347641
+      }
+    },
+    {
+      "id": "signal_0096",
+      "snr_db": -9.62,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07336873298897377,
+        "TemporalCNN": 0.2648683389518238,
+        "ResNetRF": 0.10249599316948423,
+        "SignalLSTM": 0.12667664088960834,
+        "SignalTransformer": -0.03089824469419748
+      },
+      "metadata": {
+        "snr_db": -9.62,
+        "ensemble_confidence": 0.6130950098286055,
+        "processing_time_ms": 2.6708999932554036
+      }
+    },
+    {
+      "id": "signal_0097",
+      "snr_db": 4.47,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1791155993360393,
+        "TemporalCNN": 0.15948176262749844,
+        "ResNetRF": 0.12468935374426894,
+        "SignalLSTM": 0.10387768510882434,
+        "SignalTransformer": 0.07963303230644177
+      },
+      "metadata": {
+        "snr_db": 4.47,
+        "ensemble_confidence": 0.6995416323615943,
+        "processing_time_ms": 4.618566655881865
+      }
+    },
+    {
+      "id": "signal_0098",
+      "snr_db": -0.46,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12164460473517819,
+        "TemporalCNN": 0.10091654162064113,
+        "ResNetRF": 0.11557941561823422,
+        "SignalLSTM": 0.09278094717835121,
+        "SignalTransformer": 0.09304174043889991
+      },
+      "metadata": {
+        "snr_db": -0.46,
+        "ensemble_confidence": 0.6806244603051004,
+        "processing_time_ms": 3.304647188894739
+      }
+    },
+    {
+      "id": "signal_0099",
+      "snr_db": 4.35,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09038187072904957,
+        "TemporalCNN": 0.070235266797697,
+        "ResNetRF": 0.10755202859475345,
+        "SignalLSTM": 0.0684992735028447,
+        "SignalTransformer": 0.07152079809518076
+      },
+      "metadata": {
+        "snr_db": 4.35,
+        "ensemble_confidence": 0.6722243100945994,
+        "processing_time_ms": 4.0344123309501185
+      }
+    },
+    {
+      "id": "signal_0100",
+      "snr_db": 4.62,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08602332693232179,
+        "TemporalCNN": 0.07395504521382396,
+        "ResNetRF": 0.16424841381869476,
+        "SignalLSTM": 0.06432382588489395,
+        "SignalTransformer": 0.12865421232235338
+      },
+      "metadata": {
+        "snr_db": 4.62,
+        "ensemble_confidence": 0.9363617014982,
+        "processing_time_ms": 3.7114753161057914
+      }
+    },
+    {
+      "id": "signal_0101",
+      "snr_db": 4.63,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1359067859600327,
+        "TemporalCNN": 0.097765106933838,
+        "ResNetRF": 0.082318569064505,
+        "SignalLSTM": 0.06407293420037906,
+        "SignalTransformer": 0.08724145806101574
+      },
+      "metadata": {
+        "snr_db": 4.63,
+        "ensemble_confidence": 0.7428478575531001,
+        "processing_time_ms": 1.7170538451093988
+      }
+    },
+    {
+      "id": "signal_0102",
+      "snr_db": 5.99,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.120680606842196,
+        "TemporalCNN": 0.12805489691234448,
+        "ResNetRF": 0.12315652421385234,
+        "SignalLSTM": 0.09517459492636114,
+        "SignalTransformer": 0.06073055971930685
+      },
+      "metadata": {
+        "snr_db": 5.99,
+        "ensemble_confidence": 0.938903193065896,
+        "processing_time_ms": 1.3996336997245482
+      }
+    },
+    {
+      "id": "signal_0103",
+      "snr_db": 4.97,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.15121209103409558,
+        "TemporalCNN": 0.05388472917046537,
+        "ResNetRF": 0.13634051772212702,
+        "SignalLSTM": 0.09597505159056906,
+        "SignalTransformer": 0.0657946480991307
+      },
+      "metadata": {
+        "snr_db": 4.97,
+        "ensemble_confidence": 0.6112334542556557,
+        "processing_time_ms": 4.166453308409533
+      }
+    },
+    {
+      "id": "signal_0104",
+      "snr_db": 4.85,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12871078934339844,
+        "TemporalCNN": 0.12307251723721975,
+        "ResNetRF": 0.172755666473937,
+        "SignalLSTM": 0.1084250344075815,
+        "SignalTransformer": 0.1339072456533419
+      },
+      "metadata": {
+        "snr_db": 4.85,
+        "ensemble_confidence": 0.851996294803276,
+        "processing_time_ms": 4.205019406032645
+      }
+    },
+    {
+      "id": "signal_0105",
+      "snr_db": 0.81,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08653286699458557,
+        "TemporalCNN": 0.08826127744153153,
+        "ResNetRF": 0.1196436960979663,
+        "SignalLSTM": 0.09378125123213031,
+        "SignalTransformer": 0.06802547135746943
+      },
+      "metadata": {
+        "snr_db": 0.81,
+        "ensemble_confidence": 0.7649254508976511,
+        "processing_time_ms": 3.6135674341476305
+      }
+    },
+    {
+      "id": "signal_0106",
+      "snr_db": -9.95,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.05791984273149793,
+        "TemporalCNN": 0.18212066377388964,
+        "ResNetRF": 0.07582157661494009,
+        "SignalLSTM": 0.15121051347107373,
+        "SignalTransformer": 0.04408866486094277
+      },
+      "metadata": {
+        "snr_db": -9.95,
+        "ensemble_confidence": 0.9184351534370185,
+        "processing_time_ms": 3.434736820069645
+      }
+    },
+    {
+      "id": "signal_0107",
+      "snr_db": 9.72,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09713675296775715,
+        "TemporalCNN": 0.09969676121955118,
+        "ResNetRF": 0.11908661886001148,
+        "SignalLSTM": 0.07116808406496375,
+        "SignalTransformer": 0.07590151616495501
+      },
+      "metadata": {
+        "snr_db": 9.72,
+        "ensemble_confidence": 0.9205439000563775,
+        "processing_time_ms": 2.3957027385822958
+      }
+    },
+    {
+      "id": "signal_0108",
+      "snr_db": 19.1,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11134919329866666,
+        "TemporalCNN": 0.05284606254641375,
+        "ResNetRF": 0.0718165019709107,
+        "SignalLSTM": 0.01762356448974079,
+        "SignalTransformer": 0.07273909868280838
+      },
+      "metadata": {
+        "snr_db": 19.1,
+        "ensemble_confidence": 0.8558138410179597,
+        "processing_time_ms": 2.8818702374192453
+      }
+    },
+    {
+      "id": "signal_0109",
+      "snr_db": 14.4,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.15020317342117614,
+        "TemporalCNN": 0.05288515325354023,
+        "ResNetRF": 0.09840841890412658,
+        "SignalLSTM": 0.02494089307664334,
+        "SignalTransformer": 0.09604022477299885
+      },
+      "metadata": {
+        "snr_db": 14.4,
+        "ensemble_confidence": 0.6803588908010029,
+        "processing_time_ms": 4.729243002551779
+      }
+    },
+    {
+      "id": "signal_0110",
+      "snr_db": 4.1,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07669594722127203,
+        "TemporalCNN": 0.07899090666140472,
+        "ResNetRF": 0.14631267414571325,
+        "SignalLSTM": 0.09845821788400114,
+        "SignalTransformer": 0.11741904672314935
+      },
+      "metadata": {
+        "snr_db": 4.1,
+        "ensemble_confidence": 0.694367041447455,
+        "processing_time_ms": 3.3976367836187293
+      }
+    },
+    {
+      "id": "signal_0111",
+      "snr_db": 0.84,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.14971050774121988,
+        "TemporalCNN": 0.08952100350421147,
+        "ResNetRF": 0.13673864702112637,
+        "SignalLSTM": 0.047358117779406426,
+        "SignalTransformer": 0.11831463465165445
+      },
+      "metadata": {
+        "snr_db": 0.84,
+        "ensemble_confidence": 0.7890407298162281,
+        "processing_time_ms": 2.0631452749618964
+      }
+    },
+    {
+      "id": "signal_0112",
+      "snr_db": 0.51,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.15596779327733337,
+        "TemporalCNN": 0.10768432453156825,
+        "ResNetRF": 0.11929120273072454,
+        "SignalLSTM": 0.11075623031698709,
+        "SignalTransformer": 0.10457304519019538
+      },
+      "metadata": {
+        "snr_db": 0.51,
+        "ensemble_confidence": 0.8994101673540343,
+        "processing_time_ms": 4.453671758360662
+      }
+    },
+    {
+      "id": "signal_0113",
+      "snr_db": 15.65,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.30617292882928804,
+        "TemporalCNN": 0.04376395030078208,
+        "ResNetRF": 0.16327014311679824,
+        "SignalLSTM": 0.028308262603180364,
+        "SignalTransformer": 0.1298091638252563
+      },
+      "metadata": {
+        "snr_db": 15.65,
+        "ensemble_confidence": 0.9095165751653602,
+        "processing_time_ms": 1.5180699335463193
+      }
+    },
+    {
+      "id": "signal_0114",
+      "snr_db": -5.42,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.049122506894855596,
+        "TemporalCNN": 0.3393458996113188,
+        "ResNetRF": 0.17188187817083653,
+        "SignalLSTM": 0.23972355293165098,
+        "SignalTransformer": -0.0165267884693567
+      },
+      "metadata": {
+        "snr_db": -5.42,
+        "ensemble_confidence": 0.7226722760702501,
+        "processing_time_ms": 1.3206719337452906
+      }
+    },
+    {
+      "id": "signal_0115",
+      "snr_db": 19.56,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16828951069356168,
+        "TemporalCNN": 0.11300411934398558,
+        "ResNetRF": 0.17383117448015162,
+        "SignalLSTM": 0.06832834643302325,
+        "SignalTransformer": 0.08839098558347673
+      },
+      "metadata": {
+        "snr_db": 19.56,
+        "ensemble_confidence": 0.6732465601386833,
+        "processing_time_ms": 2.867917128068431
+      }
+    },
+    {
+      "id": "signal_0116",
+      "snr_db": 20.66,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.13955426529069018,
+        "TemporalCNN": 0.09367890613045378,
+        "ResNetRF": 0.16903717941206342,
+        "SignalLSTM": 0.04884765451032453,
+        "SignalTransformer": 0.13335947503331524
+      },
+      "metadata": {
+        "snr_db": 20.66,
+        "ensemble_confidence": 0.8302244942205257,
+        "processing_time_ms": 3.9881269362549228
+      }
+    },
+    {
+      "id": "signal_0117",
+      "snr_db": 0.73,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11988656358093745,
+        "TemporalCNN": 0.21485944647743946,
+        "ResNetRF": 0.2200243101898571,
+        "SignalLSTM": 0.09891803072697485,
+        "SignalTransformer": 0.14138573607709295
+      },
+      "metadata": {
+        "snr_db": 0.73,
+        "ensemble_confidence": 0.8349321866483136,
+        "processing_time_ms": 1.429975987868239
+      }
+    },
+    {
+      "id": "signal_0118",
+      "snr_db": 9.51,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08323016290915544,
+        "TemporalCNN": 0.09285492917032188,
+        "ResNetRF": 0.12861991779716647,
+        "SignalLSTM": 0.0887135703430334,
+        "SignalTransformer": 0.09678661510216785
+      },
+      "metadata": {
+        "snr_db": 9.51,
+        "ensemble_confidence": 0.7003254209492711,
+        "processing_time_ms": 3.638217571136482
+      }
+    },
+    {
+      "id": "signal_0119",
+      "snr_db": 5.4,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18397477962845435,
+        "TemporalCNN": 0.15206021580868898,
+        "ResNetRF": 0.1049830573218902,
+        "SignalLSTM": 0.10854751702680772,
+        "SignalTransformer": 0.11950679455565359
+      },
+      "metadata": {
+        "snr_db": 5.4,
+        "ensemble_confidence": 0.9340862209747682,
+        "processing_time_ms": 3.2155782042506047
+      }
+    },
+    {
+      "id": "signal_0120",
+      "snr_db": -9.16,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.04887499765225055,
+        "TemporalCNN": 0.10988806433098007,
+        "ResNetRF": 0.07887054624175671,
+        "SignalLSTM": 0.1306121230509728,
+        "SignalTransformer": 0.018918776010965324
+      },
+      "metadata": {
+        "snr_db": -9.16,
+        "ensemble_confidence": 0.7734610474580893,
+        "processing_time_ms": 2.644865326042465
+      }
+    },
+    {
+      "id": "signal_0121",
+      "snr_db": 9.03,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12458208073827028,
+        "TemporalCNN": 0.16858656685010343,
+        "ResNetRF": 0.187002087959908,
+        "SignalLSTM": 0.0629254289037392,
+        "SignalTransformer": 0.11051993007621587
+      },
+      "metadata": {
+        "snr_db": 9.03,
+        "ensemble_confidence": 0.8872080768412818,
+        "processing_time_ms": 3.621665221523072
+      }
+    },
+    {
+      "id": "signal_0122",
+      "snr_db": -10.89,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.03048140947308532,
+        "TemporalCNN": 0.2936228445406826,
+        "ResNetRF": 0.10916646574040247,
+        "SignalLSTM": 0.22694788372512137,
+        "SignalTransformer": -0.004758381222483262
+      },
+      "metadata": {
+        "snr_db": -10.89,
+        "ensemble_confidence": 0.9223718644038186,
+        "processing_time_ms": 4.05126100763828
+      }
+    },
+    {
+      "id": "signal_0123",
+      "snr_db": 5.09,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.19557072427139466,
+        "TemporalCNN": 0.16994522718332308,
+        "ResNetRF": 0.1888966430010227,
+        "SignalLSTM": 0.05294639777885233,
+        "SignalTransformer": 0.08103586552746365
+      },
+      "metadata": {
+        "snr_db": 5.09,
+        "ensemble_confidence": 0.6376102943256236,
+        "processing_time_ms": 3.426290602754813
+      }
+    },
+    {
+      "id": "signal_0124",
+      "snr_db": -9.74,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1307815340493222,
+        "TemporalCNN": 0.28610447925165206,
+        "ResNetRF": 0.07756782762358762,
+        "SignalLSTM": 0.20691556692967725,
+        "SignalTransformer": 0.09055669512995362
+      },
+      "metadata": {
+        "snr_db": -9.74,
+        "ensemble_confidence": 0.7166630279702014,
+        "processing_time_ms": 2.925636207253626
+      }
+    },
+    {
+      "id": "signal_0125",
+      "snr_db": 10.14,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.22666904179166378,
+        "TemporalCNN": 0.08574367435390423,
+        "ResNetRF": 0.2071474104988438,
+        "SignalLSTM": 0.03567165845252175,
+        "SignalTransformer": 0.12035041605109215
+      },
+      "metadata": {
+        "snr_db": 10.14,
+        "ensemble_confidence": 0.7107950098261755,
+        "processing_time_ms": 3.192305855534856
+      }
+    },
+    {
+      "id": "signal_0126",
+      "snr_db": -4.62,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1299932957371527,
+        "TemporalCNN": 0.14121590616827567,
+        "ResNetRF": 0.1501282367197319,
+        "SignalLSTM": 0.06107256364913011,
+        "SignalTransformer": 0.13097138749896745
+      },
+      "metadata": {
+        "snr_db": -4.62,
+        "ensemble_confidence": 0.8351580753119081,
+        "processing_time_ms": 2.822011088598746
+      }
+    },
+    {
+      "id": "signal_0127",
+      "snr_db": 4.74,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17606421626668958,
+        "TemporalCNN": 0.10491128018792825,
+        "ResNetRF": 0.22168137831736823,
+        "SignalLSTM": 0.09188696212544889,
+        "SignalTransformer": 0.17499280257490432
+      },
+      "metadata": {
+        "snr_db": 4.74,
+        "ensemble_confidence": 0.8998430073191701,
+        "processing_time_ms": 2.824722347423832
+      }
+    },
+    {
+      "id": "signal_0128",
+      "snr_db": -5.33,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.04578363246719254,
+        "TemporalCNN": 0.14068042355464497,
+        "ResNetRF": 0.09651923486638121,
+        "SignalLSTM": 0.17576271620657416,
+        "SignalTransformer": 0.042854909006239096
+      },
+      "metadata": {
+        "snr_db": -5.33,
+        "ensemble_confidence": 0.8795060878431467,
+        "processing_time_ms": 4.407820419533695
+      }
+    },
+    {
+      "id": "signal_0129",
+      "snr_db": 9.21,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17133865025666017,
+        "TemporalCNN": 0.13987862431929923,
+        "ResNetRF": 0.17627512032161952,
+        "SignalLSTM": 0.07617129581647351,
+        "SignalTransformer": 0.1239307210301295
+      },
+      "metadata": {
+        "snr_db": 9.21,
+        "ensemble_confidence": 0.6469957004381228,
+        "processing_time_ms": 4.766054922079907
+      }
+    },
+    {
+      "id": "signal_0130",
+      "snr_db": 0.62,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11046454899816717,
+        "TemporalCNN": 0.08014825683510993,
+        "ResNetRF": 0.07193290974664679,
+        "SignalLSTM": 0.054249004767749354,
+        "SignalTransformer": 0.08520752150284074
+      },
+      "metadata": {
+        "snr_db": 0.62,
+        "ensemble_confidence": 0.8566892213135602,
+        "processing_time_ms": 2.1831201019644784
+      }
+    },
+    {
+      "id": "signal_0131",
+      "snr_db": 0.19,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11114206656885608,
+        "TemporalCNN": 0.12591537214225454,
+        "ResNetRF": 0.09177163095810492,
+        "SignalLSTM": 0.06578717527549019,
+        "SignalTransformer": 0.06725295404898118
+      },
+      "metadata": {
+        "snr_db": 0.19,
+        "ensemble_confidence": 0.6107831788784843,
+        "processing_time_ms": 4.107326501689296
+      }
+    },
+    {
+      "id": "signal_0132",
+      "snr_db": -10.98,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08649553137356991,
+        "TemporalCNN": 0.21848757011649692,
+        "ResNetRF": 0.0722605317040575,
+        "SignalLSTM": 0.21811248916025383,
+        "SignalTransformer": 0.1068776660761223
+      },
+      "metadata": {
+        "snr_db": -10.98,
+        "ensemble_confidence": 0.7406831719962939,
+        "processing_time_ms": 1.3123410788692604
+      }
+    },
+    {
+      "id": "signal_0133",
+      "snr_db": 4.98,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09369106118861567,
+        "TemporalCNN": 0.07722546545614976,
+        "ResNetRF": 0.08097336960251154,
+        "SignalLSTM": 0.08246677994875305,
+        "SignalTransformer": 0.08266903535184918
+      },
+      "metadata": {
+        "snr_db": 4.98,
+        "ensemble_confidence": 0.8908528797279739,
+        "processing_time_ms": 2.388578774444251
+      }
+    },
+    {
+      "id": "signal_0134",
+      "snr_db": -4.87,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08931378685085745,
+        "TemporalCNN": 0.11853943644421625,
+        "ResNetRF": 0.1137172654444248,
+        "SignalLSTM": 0.09701269457636467,
+        "SignalTransformer": 0.0919117132352474
+      },
+      "metadata": {
+        "snr_db": -4.87,
+        "ensemble_confidence": 0.8400943296399888,
+        "processing_time_ms": 1.523035079702004
+      }
+    },
+    {
+      "id": "signal_0135",
+      "snr_db": -0.05,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10660741437910051,
+        "TemporalCNN": 0.1253636891439594,
+        "ResNetRF": 0.14610663235827698,
+        "SignalLSTM": 0.11041678378872248,
+        "SignalTransformer": 0.1390121698705344
+      },
+      "metadata": {
+        "snr_db": -0.05,
+        "ensemble_confidence": 0.6188488718437448,
+        "processing_time_ms": 1.2596642621985767
+      }
+    },
+    {
+      "id": "signal_0136",
+      "snr_db": -0.9,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12070277842933971,
+        "TemporalCNN": 0.09234350953387568,
+        "ResNetRF": 0.10753758286283227,
+        "SignalLSTM": 0.05677797525062245,
+        "SignalTransformer": 0.06655730144254475
+      },
+      "metadata": {
+        "snr_db": -0.9,
+        "ensemble_confidence": 0.7988122273183158,
+        "processing_time_ms": 4.680552712415828
+      }
+    },
+    {
+      "id": "signal_0137",
+      "snr_db": 14.43,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17983126284426085,
+        "TemporalCNN": 0.06091437170181808,
+        "ResNetRF": 0.20466587650887597,
+        "SignalLSTM": 0.06396515371285863,
+        "SignalTransformer": 0.1765995589668685
+      },
+      "metadata": {
+        "snr_db": 14.43,
+        "ensemble_confidence": 0.8502326897535698,
+        "processing_time_ms": 1.6847493522273451
+      }
+    },
+    {
+      "id": "signal_0138",
+      "snr_db": -15.57,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.05047415536260505,
+        "TemporalCNN": 0.18587754704595122,
+        "ResNetRF": 0.0560913030659562,
+        "SignalLSTM": 0.24233078065257174,
+        "SignalTransformer": -0.0009495290729188964
+      },
+      "metadata": {
+        "snr_db": -15.57,
+        "ensemble_confidence": 0.6559704423331763,
+        "processing_time_ms": 3.6032838721701337
+      }
+    },
+    {
+      "id": "signal_0139",
+      "snr_db": 9.51,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.06824693816954229,
+        "TemporalCNN": 0.06387637637772596,
+        "ResNetRF": 0.06010775109761106,
+        "SignalLSTM": 0.05347389669686485,
+        "SignalTransformer": 0.057013411017395946
+      },
+      "metadata": {
+        "snr_db": 9.51,
+        "ensemble_confidence": 0.6281258277356901,
+        "processing_time_ms": 4.027638240287017
+      }
+    },
+    {
+      "id": "signal_0140",
+      "snr_db": -5.61,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.05796358456944041,
+        "TemporalCNN": 0.2617009102020547,
+        "ResNetRF": 0.09838347844375339,
+        "SignalLSTM": 0.24489618977108524,
+        "SignalTransformer": 0.07676926375710647
+      },
+      "metadata": {
+        "snr_db": -5.61,
+        "ensemble_confidence": 0.8193805233045441,
+        "processing_time_ms": 1.6733739143737039
+      }
+    },
+    {
+      "id": "signal_0141",
+      "snr_db": -0.88,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.17665851875854877,
+        "TemporalCNN": 0.10078272940315007,
+        "ResNetRF": 0.16653532286237197,
+        "SignalLSTM": 0.15453025383057964,
+        "SignalTransformer": 0.12577427166748842
+      },
+      "metadata": {
+        "snr_db": -0.88,
+        "ensemble_confidence": 0.8233895597366127,
+        "processing_time_ms": 3.3938748067657363
+      }
+    },
+    {
+      "id": "signal_0142",
+      "snr_db": -5.08,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09387267829497632,
+        "TemporalCNN": 0.20430893646954398,
+        "ResNetRF": 0.07209337034438099,
+        "SignalLSTM": 0.14039258284011946,
+        "SignalTransformer": 0.024406175784616235
+      },
+      "metadata": {
+        "snr_db": -5.08,
+        "ensemble_confidence": 0.6248646975132506,
+        "processing_time_ms": 3.058304864758317
+      }
+    },
+    {
+      "id": "signal_0143",
+      "snr_db": -5.37,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09808343868974108,
+        "TemporalCNN": 0.24866754082761502,
+        "ResNetRF": 0.0730177951535265,
+        "SignalLSTM": 0.2432686298913456,
+        "SignalTransformer": 0.08733244138155924
+      },
+      "metadata": {
+        "snr_db": -5.37,
+        "ensemble_confidence": 0.8372504916530086,
+        "processing_time_ms": 2.0084381541401215
+      }
+    },
+    {
+      "id": "signal_0144",
+      "snr_db": 4.74,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.061952853492913094,
+        "TemporalCNN": 0.04131579765821403,
+        "ResNetRF": 0.09161544802863751,
+        "SignalLSTM": 0.051482681447968325,
+        "SignalTransformer": 0.0833854633570682
+      },
+      "metadata": {
+        "snr_db": 4.74,
+        "ensemble_confidence": 0.7089532751379861,
+        "processing_time_ms": 4.316076907407537
+      }
+    },
+    {
+      "id": "signal_0145",
+      "snr_db": 10.94,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.13774210376270213,
+        "TemporalCNN": 0.08516574936451904,
+        "ResNetRF": 0.15660885416594802,
+        "SignalLSTM": 0.04976831027286828,
+        "SignalTransformer": 0.10817243823659761
+      },
+      "metadata": {
+        "snr_db": 10.94,
+        "ensemble_confidence": 0.8509319613399924,
+        "processing_time_ms": 1.6293913779241902
+      }
+    },
+    {
+      "id": "signal_0146",
+      "snr_db": 5.68,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09825893233693613,
+        "TemporalCNN": 0.15472733888073925,
+        "ResNetRF": 0.11433011304711628,
+        "SignalLSTM": 0.07302514403251582,
+        "SignalTransformer": 0.1221785327883229
+      },
+      "metadata": {
+        "snr_db": 5.68,
+        "ensemble_confidence": 0.8419634567027826,
+        "processing_time_ms": 1.4324222326047793
+      }
+    },
+    {
+      "id": "signal_0147",
+      "snr_db": 5.7,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16322847115280412,
+        "TemporalCNN": 0.12151018038801825,
+        "ResNetRF": 0.1266725696633867,
+        "SignalLSTM": 0.08021237801829526,
+        "SignalTransformer": 0.11416576859164045
+      },
+      "metadata": {
+        "snr_db": 5.7,
+        "ensemble_confidence": 0.604887647406904,
+        "processing_time_ms": 2.855728903893568
+      }
+    },
+    {
+      "id": "signal_0148",
+      "snr_db": 9.19,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07728083596572663,
+        "TemporalCNN": 0.05437602385715671,
+        "ResNetRF": 0.08865254676676984,
+        "SignalLSTM": 0.0754525628860828,
+        "SignalTransformer": 0.049971653918098075
+      },
+      "metadata": {
+        "snr_db": 9.19,
+        "ensemble_confidence": 0.6870774075436775,
+        "processing_time_ms": 4.2921591525982405
+      }
+    },
+    {
+      "id": "signal_0149",
+      "snr_db": 9.24,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10940179546713077,
+        "TemporalCNN": 0.045360605592264173,
+        "ResNetRF": 0.09313888328525087,
+        "SignalLSTM": 0.05058239823956932,
+        "SignalTransformer": 0.08894528441225501
+      },
+      "metadata": {
+        "snr_db": 9.24,
+        "ensemble_confidence": 0.7656633533393297,
+        "processing_time_ms": 3.8480665882464598
+      }
+    },
+    {
+      "id": "signal_0150",
+      "snr_db": 0.46,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.24700571609453714,
+        "TemporalCNN": 0.13569247771834755,
+        "ResNetRF": 0.17703053891082987,
+        "SignalLSTM": 0.14239383518220863,
+        "SignalTransformer": 0.09751053851329532
+      },
+      "metadata": {
+        "snr_db": 0.46,
+        "ensemble_confidence": 0.7692714525264819,
+        "processing_time_ms": 2.412425410303591
+      }
+    },
+    {
+      "id": "signal_0151",
+      "snr_db": 4.65,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.057906872403532025,
+        "TemporalCNN": 0.07171124756322335,
+        "ResNetRF": 0.06591752741935096,
+        "SignalLSTM": 0.061934675387350625,
+        "SignalTransformer": 0.08171791270445584
+      },
+      "metadata": {
+        "snr_db": 4.65,
+        "ensemble_confidence": 0.6274342033313323,
+        "processing_time_ms": 4.288273755902135
+      }
+    },
+    {
+      "id": "signal_0152",
+      "snr_db": -9.79,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.03350471131043937,
+        "TemporalCNN": 0.1394696640069888,
+        "ResNetRF": 0.04502410291826828,
+        "SignalLSTM": 0.11371340759231903,
+        "SignalTransformer": -0.00663572933401929
+      },
+      "metadata": {
+        "snr_db": -9.79,
+        "ensemble_confidence": 0.8782788353225506,
+        "processing_time_ms": 2.571745848851562
+      }
+    },
+    {
+      "id": "signal_0153",
+      "snr_db": 4.58,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08737282200894432,
+        "TemporalCNN": 0.09843576917527579,
+        "ResNetRF": 0.14379271135563185,
+        "SignalLSTM": 0.07204005061113178,
+        "SignalTransformer": 0.10410326483896354
+      },
+      "metadata": {
+        "snr_db": 4.58,
+        "ensemble_confidence": 0.731402248949628,
+        "processing_time_ms": 1.7564106096841536
+      }
+    },
+    {
+      "id": "signal_0154",
+      "snr_db": -4.34,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.13979136266985537,
+        "TemporalCNN": 0.16610077317416755,
+        "ResNetRF": 0.20326298812000093,
+        "SignalLSTM": 0.08523180129019402,
+        "SignalTransformer": 0.09276144121757686
+      },
+      "metadata": {
+        "snr_db": -4.34,
+        "ensemble_confidence": 0.6042721096798754,
+        "processing_time_ms": 2.3294036820540533
+      }
+    },
+    {
+      "id": "signal_0155",
+      "snr_db": -0.06,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.2115243672350633,
+        "TemporalCNN": 0.12572370115396792,
+        "ResNetRF": 0.15087395664866482,
+        "SignalLSTM": 0.11379458325904117,
+        "SignalTransformer": 0.14734046120682656
+      },
+      "metadata": {
+        "snr_db": -0.06,
+        "ensemble_confidence": 0.6354919639953059,
+        "processing_time_ms": 3.6694591444981794
+      }
+    },
+    {
+      "id": "signal_0156",
+      "snr_db": -4.11,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12310775767594588,
+        "TemporalCNN": 0.1098744106455094,
+        "ResNetRF": 0.08890707815100668,
+        "SignalLSTM": 0.07991649487782251,
+        "SignalTransformer": 0.05872099494255772
+      },
+      "metadata": {
+        "snr_db": -4.11,
+        "ensemble_confidence": 0.6925721008298507,
+        "processing_time_ms": 3.9092083614793287
+      }
+    },
+    {
+      "id": "signal_0157",
+      "snr_db": 0.3,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10961671733740629,
+        "TemporalCNN": 0.057327267830895465,
+        "ResNetRF": 0.11669349823149927,
+        "SignalLSTM": 0.06308883914164827,
+        "SignalTransformer": 0.060591225249503104
+      },
+      "metadata": {
+        "snr_db": 0.3,
+        "ensemble_confidence": 0.7242503183902128,
+        "processing_time_ms": 3.4798134144543162
+      }
+    },
+    {
+      "id": "signal_0158",
+      "snr_db": 0.39,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1413318516624201,
+        "TemporalCNN": 0.0762412939873785,
+        "ResNetRF": 0.13483316395960604,
+        "SignalLSTM": 0.05560129499236028,
+        "SignalTransformer": 0.12481184845710719
+      },
+      "metadata": {
+        "snr_db": 0.39,
+        "ensemble_confidence": 0.6929238459347469,
+        "processing_time_ms": 2.2533289366577085
+      }
+    },
+    {
+      "id": "signal_0159",
+      "snr_db": 15.19,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.19753266371550257,
+        "TemporalCNN": 0.09498667655132713,
+        "ResNetRF": 0.224409741722172,
+        "SignalLSTM": 0.06709999778413026,
+        "SignalTransformer": 0.18797661730483417
+      },
+      "metadata": {
+        "snr_db": 15.19,
+        "ensemble_confidence": 0.61809192386168,
+        "processing_time_ms": 3.8310651631623065
+      }
+    },
+    {
+      "id": "signal_0160",
+      "snr_db": -5.88,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08525551850958842,
+        "TemporalCNN": 0.23482304965441067,
+        "ResNetRF": 0.0686931521716949,
+        "SignalLSTM": 0.21038787425909872,
+        "SignalTransformer": 0.05233115188472478
+      },
+      "metadata": {
+        "snr_db": -5.88,
+        "ensemble_confidence": 0.7158711726712882,
+        "processing_time_ms": 3.176217360160203
+      }
+    },
+    {
+      "id": "signal_0161",
+      "snr_db": -15.9,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.04304676700690292,
+        "TemporalCNN": 0.10371722510500661,
+        "ResNetRF": 0.03478117806272699,
+        "SignalLSTM": 0.08093453885942134,
+        "SignalTransformer": 0.04552031518114699
+      },
+      "metadata": {
+        "snr_db": -15.9,
+        "ensemble_confidence": 0.7570072640644794,
+        "processing_time_ms": 4.161845355087552
+      }
+    },
+    {
+      "id": "signal_0162",
+      "snr_db": -10.16,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.045195186936580964,
+        "TemporalCNN": 0.14464230608667714,
+        "ResNetRF": 0.03830595811265576,
+        "SignalLSTM": 0.0887150965482151,
+        "SignalTransformer": 0.03100787890139558
+      },
+      "metadata": {
+        "snr_db": -10.16,
+        "ensemble_confidence": 0.7627428602739348,
+        "processing_time_ms": 1.647154371446596
+      }
+    },
+    {
+      "id": "signal_0163",
+      "snr_db": 4.73,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.19259499062343283,
+        "TemporalCNN": 0.10847045511895909,
+        "ResNetRF": 0.16264096549559617,
+        "SignalLSTM": 0.06610624579481757,
+        "SignalTransformer": 0.1737479381774645
+      },
+      "metadata": {
+        "snr_db": 4.73,
+        "ensemble_confidence": 0.7109481875620464,
+        "processing_time_ms": 1.5500048611119626
+      }
+    },
+    {
+      "id": "signal_0164",
+      "snr_db": 4.57,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07376129116400515,
+        "TemporalCNN": 0.0892018083823572,
+        "ResNetRF": 0.09357673247144585,
+        "SignalLSTM": 0.08841719654461858,
+        "SignalTransformer": 0.04500586826082666
+      },
+      "metadata": {
+        "snr_db": 4.57,
+        "ensemble_confidence": 0.8767220073437847,
+        "processing_time_ms": 2.272123406190474
+      }
+    },
+    {
+      "id": "signal_0165",
+      "snr_db": 4.18,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08515666803047069,
+        "TemporalCNN": 0.09678947630907088,
+        "ResNetRF": 0.15105842133900962,
+        "SignalLSTM": 0.058185442423094244,
+        "SignalTransformer": 0.091973307610108
+      },
+      "metadata": {
+        "snr_db": 4.18,
+        "ensemble_confidence": 0.8483917667914744,
+        "processing_time_ms": 2.3820749130247068
+      }
+    },
+    {
+      "id": "signal_0166",
+      "snr_db": 9.99,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1561388275212985,
+        "TemporalCNN": 0.14025791715779795,
+        "ResNetRF": 0.15151401930232042,
+        "SignalLSTM": 0.07827609071881358,
+        "SignalTransformer": 0.059081525816042056
+      },
+      "metadata": {
+        "snr_db": 9.99,
+        "ensemble_confidence": 0.7718440022159552,
+        "processing_time_ms": 3.8163591572975015
+      }
+    },
+    {
+      "id": "signal_0167",
+      "snr_db": 10.53,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09642870216253532,
+        "TemporalCNN": 0.039405896270900916,
+        "ResNetRF": 0.08542890741915625,
+        "SignalLSTM": 0.027172245655733458,
+        "SignalTransformer": 0.06439357684742453
+      },
+      "metadata": {
+        "snr_db": 10.53,
+        "ensemble_confidence": 0.6432601541312639,
+        "processing_time_ms": 1.8935517604888124
+      }
+    },
+    {
+      "id": "signal_0168",
+      "snr_db": 4.73,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08965746067509206,
+        "TemporalCNN": 0.1206608663510451,
+        "ResNetRF": 0.12445517131610391,
+        "SignalLSTM": 0.09411489766571426,
+        "SignalTransformer": 0.08040360244880454
+      },
+      "metadata": {
+        "snr_db": 4.73,
+        "ensemble_confidence": 0.7594727178903873,
+        "processing_time_ms": 3.2547297774293362
+      }
+    },
+    {
+      "id": "signal_0169",
+      "snr_db": -15.59,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.03807780192568593,
+        "TemporalCNN": 0.31828942568640617,
+        "ResNetRF": 0.10391817425854637,
+        "SignalLSTM": 0.24538774495757149,
+        "SignalTransformer": 0.014630730338826278
+      },
+      "metadata": {
+        "snr_db": -15.59,
+        "ensemble_confidence": 0.8390495691859265,
+        "processing_time_ms": 1.8376504876680557
+      }
+    },
+    {
+      "id": "signal_0170",
+      "snr_db": -9.26,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07736213144511055,
+        "TemporalCNN": 0.27561073236750616,
+        "ResNetRF": 0.06941584508704521,
+        "SignalLSTM": 0.23412975189198398,
+        "SignalTransformer": 0.055726305565458246
+      },
+      "metadata": {
+        "snr_db": -9.26,
+        "ensemble_confidence": 0.752483289865657,
+        "processing_time_ms": 1.5878848673632286
+      }
+    },
+    {
+      "id": "signal_0171",
+      "snr_db": -4.58,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09551757141496128,
+        "TemporalCNN": 0.06960349794174277,
+        "ResNetRF": 0.09527205220766181,
+        "SignalLSTM": 0.05760957737050064,
+        "SignalTransformer": 0.052666611410813906
+      },
+      "metadata": {
+        "snr_db": -4.58,
+        "ensemble_confidence": 0.9152899006334599,
+        "processing_time_ms": 1.9182744394669344
+      }
+    },
+    {
+      "id": "signal_0172",
+      "snr_db": 5.62,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.16734752166579453,
+        "TemporalCNN": 0.14563890982784772,
+        "ResNetRF": 0.2005001766977715,
+        "SignalLSTM": 0.08063256098105696,
+        "SignalTransformer": 0.16221046181707433
+      },
+      "metadata": {
+        "snr_db": 5.62,
+        "ensemble_confidence": 0.9418539437390397,
+        "processing_time_ms": 1.3214048737658528
+      }
+    },
+    {
+      "id": "signal_0173",
+      "snr_db": 0.53,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.14168739332302765,
+        "TemporalCNN": 0.11928799076506517,
+        "ResNetRF": 0.12095755071670317,
+        "SignalLSTM": 0.05311548807287642,
+        "SignalTransformer": 0.08207472049099321
+      },
+      "metadata": {
+        "snr_db": 0.53,
+        "ensemble_confidence": 0.763514637631602,
+        "processing_time_ms": 2.1268709797444174
+      }
+    },
+    {
+      "id": "signal_0174",
+      "snr_db": 14.46,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.2796556247750739,
+        "TemporalCNN": 0.1259389033458494,
+        "ResNetRF": 0.17736058178791603,
+        "SignalLSTM": 0.0404634006159089,
+        "SignalTransformer": 0.10635769272678919
+      },
+      "metadata": {
+        "snr_db": 14.46,
+        "ensemble_confidence": 0.7139583917386233,
+        "processing_time_ms": 3.186159986576185
+      }
+    },
+    {
+      "id": "signal_0175",
+      "snr_db": -5.32,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.03372566418311193,
+        "TemporalCNN": 0.3555214635619529,
+        "ResNetRF": 0.09611286704152139,
+        "SignalLSTM": 0.171888505155772,
+        "SignalTransformer": -0.04721360839171184
+      },
+      "metadata": {
+        "snr_db": -5.32,
+        "ensemble_confidence": 0.686126054598801,
+        "processing_time_ms": 1.5894786072089895
+      }
+    },
+    {
+      "id": "signal_0176",
+      "snr_db": 0.6,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.22527987805463684,
+        "TemporalCNN": 0.13105507433808553,
+        "ResNetRF": 0.194876231368932,
+        "SignalLSTM": 0.07827057065501997,
+        "SignalTransformer": 0.14486585543363975
+      },
+      "metadata": {
+        "snr_db": 0.6,
+        "ensemble_confidence": 0.7815509980088062,
+        "processing_time_ms": 2.357978265142108
+      }
+    },
+    {
+      "id": "signal_0177",
+      "snr_db": 10.18,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.13567499819311357,
+        "TemporalCNN": 0.0404499586524761,
+        "ResNetRF": 0.09594778937062395,
+        "SignalLSTM": 0.01704557905527509,
+        "SignalTransformer": 0.0930982343197249
+      },
+      "metadata": {
+        "snr_db": 10.18,
+        "ensemble_confidence": 0.6284378997963186,
+        "processing_time_ms": 2.2483084443980186
+      }
+    },
+    {
+      "id": "signal_0178",
+      "snr_db": -5.55,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07663018040026942,
+        "TemporalCNN": 0.23253257134343555,
+        "ResNetRF": 0.04631027405432241,
+        "SignalLSTM": 0.13640433357308954,
+        "SignalTransformer": -0.017388401304024345
+      },
+      "metadata": {
+        "snr_db": -5.55,
+        "ensemble_confidence": 0.7737956021397383,
+        "processing_time_ms": 3.9644744191738175
+      }
+    },
+    {
+      "id": "signal_0179",
+      "snr_db": -0.34,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1275055618962863,
+        "TemporalCNN": 0.166391395560348,
+        "ResNetRF": 0.1435069771384387,
+        "SignalLSTM": 0.08598613446697824,
+        "SignalTransformer": 0.1447425485791338
+      },
+      "metadata": {
+        "snr_db": -0.34,
+        "ensemble_confidence": 0.7489760510923447,
+        "processing_time_ms": 2.056225631292249
+      }
+    },
+    {
+      "id": "signal_0180",
+      "snr_db": 4.42,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08910959708505325,
+        "TemporalCNN": 0.10873914264109438,
+        "ResNetRF": 0.13982040983025,
+        "SignalLSTM": 0.09515632139888043,
+        "SignalTransformer": 0.11363272309516258
+      },
+      "metadata": {
+        "snr_db": 4.42,
+        "ensemble_confidence": 0.83964282929533,
+        "processing_time_ms": 2.3917682009887313
+      }
+    },
+    {
+      "id": "signal_0181",
+      "snr_db": 19.52,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.18351523669649109,
+        "TemporalCNN": 0.03251228569937687,
+        "ResNetRF": 0.14835070888237803,
+        "SignalLSTM": 0.05204041515661496,
+        "SignalTransformer": 0.05951823508944223
+      },
+      "metadata": {
+        "snr_db": 19.52,
+        "ensemble_confidence": 0.8126498513389768,
+        "processing_time_ms": 2.3074788899368635
+      }
+    },
+    {
+      "id": "signal_0182",
+      "snr_db": 9.12,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11332693941038388,
+        "TemporalCNN": 0.12643064717733263,
+        "ResNetRF": 0.1329632857165162,
+        "SignalLSTM": 0.13958249664287886,
+        "SignalTransformer": 0.12215839493871987
+      },
+      "metadata": {
+        "snr_db": 9.12,
+        "ensemble_confidence": 0.7028126323486158,
+        "processing_time_ms": 4.106738235306939
+      }
+    },
+    {
+      "id": "signal_0183",
+      "snr_db": -9.74,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.072235543106116,
+        "TemporalCNN": 0.2481136257705735,
+        "ResNetRF": 0.10189664453693975,
+        "SignalLSTM": 0.17063073005165044,
+        "SignalTransformer": 0.001460518715995336
+      },
+      "metadata": {
+        "snr_db": -9.74,
+        "ensemble_confidence": 0.7092920927213674,
+        "processing_time_ms": 1.6055341243239498
+      }
+    },
+    {
+      "id": "signal_0184",
+      "snr_db": -4.84,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.11462768150629031,
+        "TemporalCNN": 0.15555136941240524,
+        "ResNetRF": 0.15195731952373193,
+        "SignalLSTM": 0.10875647726221516,
+        "SignalTransformer": 0.11647030936087878
+      },
+      "metadata": {
+        "snr_db": -4.84,
+        "ensemble_confidence": 0.8611098023731777,
+        "processing_time_ms": 4.497190130864224
+      }
+    },
+    {
+      "id": "signal_0185",
+      "snr_db": 5.94,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08092590118933116,
+        "TemporalCNN": 0.06674685165914318,
+        "ResNetRF": 0.1158256443435379,
+        "SignalLSTM": 0.042070592432959034,
+        "SignalTransformer": 0.0644096672824986
+      },
+      "metadata": {
+        "snr_db": 5.94,
+        "ensemble_confidence": 0.7124034035116089,
+        "processing_time_ms": 2.837951910968291
+      }
+    },
+    {
+      "id": "signal_0186",
+      "snr_db": 5.54,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.07188909289460124,
+        "TemporalCNN": 0.051054056776871054,
+        "ResNetRF": 0.11168474457839381,
+        "SignalLSTM": 0.08885923661773953,
+        "SignalTransformer": 0.056207538909722965
+      },
+      "metadata": {
+        "snr_db": 5.54,
+        "ensemble_confidence": 0.8415141440108594,
+        "processing_time_ms": 4.4761202941638665
+      }
+    },
+    {
+      "id": "signal_0187",
+      "snr_db": 15.7,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1317567642757021,
+        "TemporalCNN": 0.0398867161399412,
+        "ResNetRF": 0.10087385100520063,
+        "SignalLSTM": 0.030736023115112233,
+        "SignalTransformer": 0.05402097850296913
+      },
+      "metadata": {
+        "snr_db": 15.7,
+        "ensemble_confidence": 0.7189434874178324,
+        "processing_time_ms": 1.3548253428903332
+      }
+    },
+    {
+      "id": "signal_0188",
+      "snr_db": 4.74,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.0866975203798427,
+        "TemporalCNN": 0.037414912692200514,
+        "ResNetRF": 0.07760145833167398,
+        "SignalLSTM": 0.05152741829524583,
+        "SignalTransformer": 0.06279166557345155
+      },
+      "metadata": {
+        "snr_db": 4.74,
+        "ensemble_confidence": 0.8512795975260471,
+        "processing_time_ms": 4.477897844416279
+      }
+    },
+    {
+      "id": "signal_0189",
+      "snr_db": 20.99,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.2682970945767546,
+        "TemporalCNN": 0.08695933840596326,
+        "ResNetRF": 0.20979179958634003,
+        "SignalLSTM": 0.02537545700267584,
+        "SignalTransformer": 0.10887084179410013
+      },
+      "metadata": {
+        "snr_db": 20.99,
+        "ensemble_confidence": 0.9365428598003627,
+        "processing_time_ms": 2.6831113969336693
+      }
+    },
+    {
+      "id": "signal_0190",
+      "snr_db": 9.85,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.09071849082598143,
+        "TemporalCNN": 0.16524442325365182,
+        "ResNetRF": 0.10492759699132335,
+        "SignalLSTM": 0.095213224979978,
+        "SignalTransformer": 0.12944434701081547
+      },
+      "metadata": {
+        "snr_db": 9.85,
+        "ensemble_confidence": 0.8396942332260781,
+        "processing_time_ms": 1.8432249575071251
+      }
+    },
+    {
+      "id": "signal_0191",
+      "snr_db": 0.17,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1225609991659841,
+        "TemporalCNN": 0.14968995157675416,
+        "ResNetRF": 0.10546618978914608,
+        "SignalLSTM": 0.0672390061119489,
+        "SignalTransformer": 0.06598502850493844
+      },
+      "metadata": {
+        "snr_db": 0.17,
+        "ensemble_confidence": 0.9215339469129203,
+        "processing_time_ms": 1.5667565648731767
+      }
+    },
+    {
+      "id": "signal_0192",
+      "snr_db": -4.01,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.060647508382085755,
+        "TemporalCNN": 0.07425924918986203,
+        "ResNetRF": 0.07733207299488953,
+        "SignalLSTM": 0.08243461781337867,
+        "SignalTransformer": 0.0506910573768929
+      },
+      "metadata": {
+        "snr_db": -4.01,
+        "ensemble_confidence": 0.6748671220805049,
+        "processing_time_ms": 1.299746148706285
+      }
+    },
+    {
+      "id": "signal_0193",
+      "snr_db": -5.33,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.10153808209607793,
+        "TemporalCNN": 0.22764604329352386,
+        "ResNetRF": 0.06049459251983245,
+        "SignalLSTM": 0.26993749037542525,
+        "SignalTransformer": -0.03996624879864936
+      },
+      "metadata": {
+        "snr_db": -5.33,
+        "ensemble_confidence": 0.6493460088835126,
+        "processing_time_ms": 1.8141019046002382
+      }
+    },
+    {
+      "id": "signal_0194",
+      "snr_db": 0.0,
+      "modulation": "QPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.1664193828474184,
+        "TemporalCNN": 0.15610696277006028,
+        "ResNetRF": 0.19553741929627164,
+        "SignalLSTM": 0.10256892290006077,
+        "SignalTransformer": 0.1630238306030614
+      },
+      "metadata": {
+        "snr_db": 0.0,
+        "ensemble_confidence": 0.6592948233945932,
+        "processing_time_ms": 2.734991725843602
+      }
+    },
+    {
+      "id": "signal_0195",
+      "snr_db": 4.23,
+      "modulation": "16QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.08875703971681968,
+        "TemporalCNN": 0.12886609736221255,
+        "ResNetRF": 0.10033785382608128,
+        "SignalLSTM": 0.09609205296408975,
+        "SignalTransformer": 0.07373547631795462
+      },
+      "metadata": {
+        "snr_db": 4.23,
+        "ensemble_confidence": 0.6585644568126703,
+        "processing_time_ms": 2.338064491593788
+      }
+    },
+    {
+      "id": "signal_0196",
+      "snr_db": 10.22,
+      "modulation": "8PSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.24626483109168612,
+        "TemporalCNN": 0.04676182918683326,
+        "ResNetRF": 0.15703750120399548,
+        "SignalLSTM": 0.04027650578994509,
+        "SignalTransformer": 0.10903789117207201
+      },
+      "metadata": {
+        "snr_db": 10.22,
+        "ensemble_confidence": 0.7895032866220427,
+        "processing_time_ms": 2.4946755868170074
+      }
+    },
+    {
+      "id": "signal_0197",
+      "snr_db": 5.35,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.14534607752896514,
+        "TemporalCNN": 0.12327489629715102,
+        "ResNetRF": 0.14294135899933344,
+        "SignalLSTM": 0.05537830682154233,
+        "SignalTransformer": 0.08873065473317214
+      },
+      "metadata": {
+        "snr_db": 5.35,
+        "ensemble_confidence": 0.851881282178675,
+        "processing_time_ms": 1.8826102349322442
+      }
+    },
+    {
+      "id": "signal_0198",
+      "snr_db": -5.25,
+      "modulation": "BPSK",
+      "shapley_contribution": {
+        "SpectralCNN": 0.027616704766186297,
+        "TemporalCNN": 0.20441643323133105,
+        "ResNetRF": 0.07883126491987656,
+        "SignalLSTM": 0.13068194114413273,
+        "SignalTransformer": -9.45405881665482e-05
+      },
+      "metadata": {
+        "snr_db": -5.25,
+        "ensemble_confidence": 0.7946692683283597,
+        "processing_time_ms": 4.126881131848488
+      }
+    },
+    {
+      "id": "signal_0199",
+      "snr_db": 9.86,
+      "modulation": "64QAM",
+      "shapley_contribution": {
+        "SpectralCNN": 0.12682861588506925,
+        "TemporalCNN": 0.0930781453164823,
+        "ResNetRF": 0.07674793437008244,
+        "SignalLSTM": 0.09831350799371752,
+        "SignalTransformer": 0.0887955038830971
+      },
+      "metadata": {
+        "snr_db": 9.86,
+        "ensemble_confidence": 0.8439368501360466,
+        "processing_time_ms": 4.006137365072724
+      }
+    }
+  ]
+}

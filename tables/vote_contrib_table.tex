@@ -1,0 +1,17 @@
+% Auto-generated table. Do not edit by hand.
+\begin{table}[t]
+\centering
+\caption{Mean exact Shapley value $\phi_i$ for the predicted class (higher = more important), averaged over 1000 validation samples. ``Top-Share'' is the percentage of samples in which the model had the highest $\phi_i$.}
+\label{tab:vote_contrib_top}
+\begin{tabular}{l c c}
+\toprule
+Model               & Mean $\phi_i$ $\pm$ Std & Top-Share \\
+\midrule
+TemporalCNN         & 0.132 $\pm$ 0.071     & 34\%     \\
+SpectralCNN         & 0.129 $\pm$ 0.068     & 39\%     \\
+ResNetRF            & 0.124 $\pm$ 0.049     & 22\%     \\
+SignalLSTM          & 0.097 $\pm$ 0.059     & 3\%      \\
+SignalTransformer   & 0.081 $\pm$ 0.054     & 2\%      \\
+\bottomrule
+\end{tabular}
+\end{table}

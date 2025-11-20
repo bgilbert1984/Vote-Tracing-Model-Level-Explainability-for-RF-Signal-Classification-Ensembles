@@ -1,0 +1,20 @@
+{
+  "baseline_acc": 0.85,
+  "remove_top1": {
+    "model": "TemporalCNN",
+    "acc": 0.7,
+    "delta": -0.15000000000000002
+  },
+  "remove_bottom1": {
+    "model": "SignalTransformer",
+    "acc": 0.78,
+    "delta": -0.06999999999999995
+  },
+  "mean_contributions": {
+    "TemporalCNN": 0.12508539762377208,
+    "SpectralCNN": 0.11999218841502941,
+    "ResNetRF": 0.11829858883789324,
+    "SignalLSTM": 0.10356069377021307,
+    "SignalTransformer": 0.07750073373674159
+  }
+}

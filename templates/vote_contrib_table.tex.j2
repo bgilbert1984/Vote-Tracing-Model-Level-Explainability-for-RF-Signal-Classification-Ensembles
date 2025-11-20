@@ -1,0 +1,15 @@
+% Auto-generated table. Do not edit by hand.
+\begin{table}[t]
+\centering
+\caption{Top contributing models (mean $\Delta p(y^*)$) over {{ N }} samples.}
+\label{tab:vote_contrib_top}
+\begin{tabular}{l c c c}
+\toprule
+Model & Mean $\Delta p$ & Std & Top-Share \\
+\midrule
+{% for r in rows -%}
+{{ r.model }} & {{ "%.4f"|format(r.mean_dp) }} & $\pm$ {{ "%.4f"|format(r.std_dp) }} & {{ "%.1f"|format(100.0*r.top_share) }}\% \\
+{% endfor -%}
+\bottomrule
+\end{tabular}
+\end{table}
