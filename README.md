@@ -1,4 +1,4 @@
-# Paper 12: Explainability from Vote Traces in RF Ensembles
+# Explainability from Vote Traces in RF Ensembles
 
 A comprehensive system for adding interpretability to RF signal classification ensembles through vote tracing, Shapley attribution, and visual analysis.
 
